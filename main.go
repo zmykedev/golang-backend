@@ -18,10 +18,11 @@ import (
 func main() {
 	utils.LogInfo("Starting application")
 
-	// Load environment variables
-	if err := godotenv.Load(); err != nil {
-		utils.LogError("Error loading .env file: %v", err)
-		log.Fatal("Error loading .env file")
+	// Load environment variables based on environment
+	if os.Getenv("ENV") != "production" {
+		if err := godotenv.Load(); err != nil {
+			utils.LogInfo("No .env file found")
+		}
 	}
 
 	// Connect to database
