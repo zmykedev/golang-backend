@@ -1,0 +1,250 @@
+INFO: 2025/05/24 16:15:16 logger.go:39: Starting application
+INFO: 2025/05/24 16:15:16 logger.go:39: Connecting to database
+INFO: 2025/05/24 16:15:17 logger.go:39: Setting up routes
+INFO: 2025/05/24 16:15:17 logger.go:39: Setting up authentication routes
+INFO: 2025/05/24 16:15:17 logger.go:39: Server starting on port 3001
+INFO: 2025/05/24 16:15:29 logger.go:39: Initiating Google OAuth flow
+INFO: 2025/05/24 16:17:04 logger.go:39: Starting application
+INFO: 2025/05/24 16:17:04 logger.go:39: Connecting to database
+INFO: 2025/05/24 16:17:04 logger.go:39: Setting up routes
+INFO: 2025/05/24 16:17:04 logger.go:39: Setting up authentication routes
+INFO: 2025/05/24 16:17:04 logger.go:39: Server starting on port 3001
+INFO: 2025/05/24 16:17:18 logger.go:39: Initiating Google OAuth flow
+INFO: 2025/05/24 16:17:24 logger.go:39: Initiating Google OAuth flow
+INFO: 2025/05/24 16:18:04 logger.go:39: Initiating Google OAuth flow
+INFO: 2025/05/24 16:24:05 logger.go:39: Starting application
+INFO: 2025/05/24 16:24:05 logger.go:39: Connecting to database
+INFO: 2025/05/24 16:24:05 logger.go:39: Setting up routes
+INFO: 2025/05/24 16:24:05 logger.go:39: Setting up authentication routes
+INFO: 2025/05/24 16:24:05 logger.go:39: Server starting on port 3001
+INFO: 2025/05/24 16:24:17 logger.go:39: Initiating Google OAuth flow
+INFO: 2025/05/24 16:24:21 logger.go:39: Initiating Google OAuth flow
+INFO: 2025/05/24 16:30:55 logger.go:39: Processing login request
+ERROR: 2025/05/24 16:30:55 logger.go:46: Login failed - user not found: dsfsfsd
+INFO: 2025/05/24 16:31:02 logger.go:39: Initiating Google OAuth flow
+INFO: 2025/05/24 16:34:15 logger.go:39: Starting application
+INFO: 2025/05/24 16:34:15 logger.go:39: Connecting to database
+INFO: 2025/05/24 16:34:15 logger.go:39: Initializing OAuth configuration
+INFO: 2025/05/24 16:34:15 logger.go:39: Setting up routes
+INFO: 2025/05/24 16:34:15 logger.go:39: Setting up authentication routes
+INFO: 2025/05/24 16:34:15 logger.go:39: Server starting on port 3001
+INFO: 2025/05/24 16:34:16 logger.go:39: Initiating Google OAuth flow
+INFO: 2025/05/24 16:34:21 logger.go:39: Processing Google OAuth callback
+ERROR: 2025/05/24 16:34:22 logger.go:46: Error exchanging code for token: oauth2: "invalid_request" "client_secret is missing."
+INFO: 2025/05/24 16:36:06 logger.go:39: Starting application
+INFO: 2025/05/24 16:36:06 logger.go:39: Connecting to database
+INFO: 2025/05/24 16:36:06 logger.go:39: Initializing OAuth configuration
+INFO: 2025/05/24 16:36:06 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/24 16:36:06 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/24 16:36:06 logger.go:39: Callback URL: http://localhost:3001/auth/google/callback
+INFO: 2025/05/24 16:36:06 logger.go:39: Client Secret is configured
+INFO: 2025/05/24 16:36:06 logger.go:39: Setting up routes
+INFO: 2025/05/24 16:36:06 logger.go:39: Setting up authentication routes
+INFO: 2025/05/24 16:36:06 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/24 16:36:06 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/24 16:36:06 logger.go:39: Callback URL: http://localhost:3001/auth/google/callback
+INFO: 2025/05/24 16:36:06 logger.go:39: Client Secret is configured
+INFO: 2025/05/24 16:36:06 logger.go:39: Server starting on port 3001
+INFO: 2025/05/24 16:36:17 logger.go:39: Processing Google OAuth callback
+INFO: 2025/05/24 16:36:18 logger.go:39: Created new user from Google OAuth: zmaikol399@gmail.com
+INFO: 2025/05/24 16:36:18 logger.go:39: Successfully authenticated user with Google: zmaikol399@gmail.com
+INFO: 2025/05/24 16:40:03 logger.go:39: Initiating Google OAuth flow
+INFO: 2025/05/24 16:40:16 logger.go:39: Processing Google OAuth callback
+INFO: 2025/05/24 16:40:17 logger.go:39: Successfully authenticated user with Google: zmaikol399@gmail.com
+INFO: 2025/05/24 17:03:08 logger.go:39: Initiating Google OAuth flow
+INFO: 2025/05/24 17:12:55 logger.go:39: Starting application
+INFO: 2025/05/24 17:12:55 logger.go:39: Connecting to database
+INFO: 2025/05/24 17:12:55 logger.go:39: Initializing OAuth configuration
+INFO: 2025/05/24 17:12:55 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/24 17:12:55 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/24 17:12:55 logger.go:39: Callback URL: http://localhost:3001/auth/google/callback
+INFO: 2025/05/24 17:12:55 logger.go:39: Client Secret is configured
+INFO: 2025/05/24 17:12:55 logger.go:39: Setting up routes
+INFO: 2025/05/24 17:12:55 logger.go:39: Setting up authentication routes
+INFO: 2025/05/24 17:12:55 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/24 17:12:55 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/24 17:12:55 logger.go:39: Callback URL: http://localhost:3001/auth/google/callback
+INFO: 2025/05/24 17:12:55 logger.go:39: Client Secret is configured
+INFO: 2025/05/24 17:12:55 logger.go:39: Server starting on port 3001
+INFO: 2025/05/24 17:17:00 logger.go:39: Starting application
+INFO: 2025/05/24 17:17:00 logger.go:39: Connecting to database
+INFO: 2025/05/24 17:17:00 logger.go:39: Initializing OAuth configuration
+INFO: 2025/05/24 17:17:00 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/24 17:17:00 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/24 17:17:00 logger.go:39: Callback URL: 
+INFO: 2025/05/24 17:17:00 logger.go:39: Client Secret is configured
+INFO: 2025/05/24 17:17:00 logger.go:39: Setting up routes
+INFO: 2025/05/24 17:17:00 logger.go:39: Setting up authentication routes
+INFO: 2025/05/24 17:17:00 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/24 17:17:00 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/24 17:17:00 logger.go:39: Callback URL: 
+INFO: 2025/05/24 17:17:00 logger.go:39: Client Secret is configured
+INFO: 2025/05/24 17:17:00 logger.go:39: Server starting on port 3001
+INFO: 2025/05/24 17:18:09 logger.go:39: Starting application
+INFO: 2025/05/24 17:18:09 logger.go:39: Connecting to database
+INFO: 2025/05/24 17:18:09 logger.go:39: Initializing OAuth configuration
+INFO: 2025/05/24 17:18:09 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/24 17:18:09 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/24 17:18:09 logger.go:39: Callback URL: 
+INFO: 2025/05/24 17:18:09 logger.go:39: Client Secret is configured
+INFO: 2025/05/24 17:18:09 logger.go:39: Setting up routes
+INFO: 2025/05/24 17:18:09 logger.go:39: Setting up authentication routes
+INFO: 2025/05/24 17:18:09 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/24 17:18:09 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/24 17:18:09 logger.go:39: Callback URL: 
+INFO: 2025/05/24 17:18:09 logger.go:39: Client Secret is configured
+INFO: 2025/05/24 17:18:09 logger.go:39: Server starting on port 3001
+INFO: 2025/05/24 17:22:51 logger.go:39: Starting application
+INFO: 2025/05/24 17:22:51 logger.go:39: Connecting to database
+INFO: 2025/05/24 17:22:51 logger.go:39: Initializing OAuth configuration
+INFO: 2025/05/24 17:22:51 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/24 17:22:51 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/24 17:22:51 logger.go:39: Callback URL: 
+INFO: 2025/05/24 17:22:51 logger.go:39: Client Secret is configured
+INFO: 2025/05/24 17:22:51 logger.go:39: Setting up routes
+INFO: 2025/05/24 17:22:51 logger.go:39: Setting up authentication routes
+INFO: 2025/05/24 17:22:51 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/24 17:22:51 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/24 17:22:51 logger.go:39: Callback URL: 
+INFO: 2025/05/24 17:22:51 logger.go:39: Client Secret is configured
+INFO: 2025/05/24 17:22:51 logger.go:39: Server starting on port 3001
+INFO: 2025/05/24 17:25:35 logger.go:39: Starting application
+INFO: 2025/05/24 17:25:35 logger.go:39: Connecting to database
+INFO: 2025/05/24 17:25:35 logger.go:39: Initializing OAuth configuration
+INFO: 2025/05/24 17:25:35 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/24 17:25:35 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/24 17:25:35 logger.go:39: Callback URL: 
+INFO: 2025/05/24 17:25:35 logger.go:39: Client Secret is configured
+INFO: 2025/05/24 17:25:35 logger.go:39: Setting up routes
+INFO: 2025/05/24 17:25:35 logger.go:39: Setting up authentication routes
+INFO: 2025/05/24 17:25:35 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/24 17:25:35 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/24 17:25:35 logger.go:39: Callback URL: 
+INFO: 2025/05/24 17:25:35 logger.go:39: Client Secret is configured
+INFO: 2025/05/24 17:25:35 logger.go:39: Server starting on port 3001
+INFO: 2025/05/24 17:31:05 logger.go:39: Starting application
+INFO: 2025/05/24 17:31:05 logger.go:39: Connecting to database
+INFO: 2025/05/24 17:31:05 logger.go:39: Initializing OAuth configuration
+INFO: 2025/05/24 17:31:05 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/24 17:31:05 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/24 17:31:05 logger.go:39: Callback URL: 
+INFO: 2025/05/24 17:31:05 logger.go:39: Client Secret is configured
+INFO: 2025/05/24 17:31:05 logger.go:39: Setting up routes
+INFO: 2025/05/24 17:31:05 logger.go:39: Setting up authentication routes
+INFO: 2025/05/24 17:31:05 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/24 17:31:05 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/24 17:31:05 logger.go:39: Callback URL: 
+INFO: 2025/05/24 17:31:05 logger.go:39: Client Secret is configured
+INFO: 2025/05/24 17:31:05 logger.go:39: Server starting on port 3001
+INFO: 2025/05/24 17:32:16 logger.go:39: Starting application
+INFO: 2025/05/24 17:32:16 logger.go:39: Connecting to database
+INFO: 2025/05/24 17:32:16 logger.go:39: Initializing OAuth configuration
+INFO: 2025/05/24 17:32:16 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/24 17:32:16 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/24 17:32:16 logger.go:39: Callback URL: 
+INFO: 2025/05/24 17:32:16 logger.go:39: Client Secret is configured
+INFO: 2025/05/24 17:32:16 logger.go:39: Setting up routes
+INFO: 2025/05/24 17:32:16 logger.go:39: Setting up authentication routes
+INFO: 2025/05/24 17:32:16 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/24 17:32:16 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/24 17:32:16 logger.go:39: Callback URL: 
+INFO: 2025/05/24 17:32:16 logger.go:39: Client Secret is configured
+INFO: 2025/05/24 17:32:16 logger.go:39: Server starting on port 3001
+INFO: 2025/05/24 17:41:41 logger.go:39: Starting application
+INFO: 2025/05/24 17:41:41 logger.go:39: Connecting to database
+INFO: 2025/05/24 17:41:41 logger.go:39: Initializing OAuth configuration
+INFO: 2025/05/24 17:41:41 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/24 17:41:41 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/24 17:41:41 logger.go:39: Callback URL: 
+INFO: 2025/05/24 17:41:41 logger.go:39: Client Secret is configured
+INFO: 2025/05/24 17:41:41 logger.go:39: Setting up routes
+INFO: 2025/05/24 17:41:41 logger.go:39: Setting up authentication routes
+INFO: 2025/05/24 17:41:41 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/24 17:41:41 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/24 17:41:41 logger.go:39: Callback URL: 
+INFO: 2025/05/24 17:41:41 logger.go:39: Client Secret is configured
+INFO: 2025/05/24 17:41:41 logger.go:39: Server starting on port 3001
+INFO: 2025/05/24 17:44:13 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/24 18:37:56 logger.go:39: Starting application
+INFO: 2025/05/24 18:37:56 logger.go:39: Connecting to database
+INFO: 2025/05/24 18:38:51 logger.go:39: Starting application
+INFO: 2025/05/24 18:38:51 logger.go:39: Connecting to database
+INFO: 2025/05/24 18:38:51 logger.go:39: Initializing OAuth configuration
+INFO: 2025/05/24 18:38:51 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/24 18:38:51 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/24 18:38:51 logger.go:39: Callback URL: 
+INFO: 2025/05/24 18:38:51 logger.go:39: Client Secret is configured
+INFO: 2025/05/24 18:38:51 logger.go:39: Setting up routes
+INFO: 2025/05/24 18:38:51 logger.go:39: Setting up authentication routes
+INFO: 2025/05/24 18:38:51 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/24 18:38:51 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/24 18:38:51 logger.go:39: Callback URL: 
+INFO: 2025/05/24 18:38:51 logger.go:39: Client Secret is configured
+INFO: 2025/05/24 18:38:51 logger.go:39: Server starting on port 3001
+INFO: 2025/05/24 18:39:17 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/24 18:52:39 logger.go:39: Starting application
+INFO: 2025/05/24 18:52:39 logger.go:39: Connecting to database
+INFO: 2025/05/24 18:52:39 logger.go:39: Initializing OAuth configuration
+INFO: 2025/05/24 18:52:39 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/24 18:52:39 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/24 18:52:39 logger.go:39: Callback URL: 
+INFO: 2025/05/24 18:52:39 logger.go:39: Client Secret is configured
+INFO: 2025/05/24 18:52:39 logger.go:39: Setting up routes
+INFO: 2025/05/24 18:52:39 logger.go:39: Setting up authentication routes
+INFO: 2025/05/24 18:52:39 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/24 18:52:39 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/24 18:52:39 logger.go:39: Callback URL: 
+INFO: 2025/05/24 18:52:39 logger.go:39: Client Secret is configured
+INFO: 2025/05/24 18:52:39 logger.go:39: Server starting on port 3001
+INFO: 2025/05/24 19:25:32 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/24 19:33:31 logger.go:39: Starting application
+INFO: 2025/05/24 19:33:31 logger.go:39: Connecting to database
+INFO: 2025/05/24 19:33:31 logger.go:39: Initializing OAuth configuration
+INFO: 2025/05/24 19:33:31 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/24 19:33:31 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/24 19:33:31 logger.go:39: Callback URL: 
+INFO: 2025/05/24 19:33:31 logger.go:39: Client Secret is configured
+INFO: 2025/05/24 19:33:31 logger.go:39: Setting up routes
+INFO: 2025/05/24 19:33:31 logger.go:39: Setting up authentication routes
+INFO: 2025/05/24 19:33:31 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/24 19:33:31 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/24 19:33:31 logger.go:39: Callback URL: 
+INFO: 2025/05/24 19:33:31 logger.go:39: Client Secret is configured
+INFO: 2025/05/24 19:33:31 logger.go:39: Server starting on port 3001
+INFO: 2025/05/24 19:36:51 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/24 19:38:43 logger.go:39: Starting application
+INFO: 2025/05/24 19:38:43 logger.go:39: Connecting to database
+INFO: 2025/05/24 19:38:44 logger.go:39: Initializing OAuth configuration
+INFO: 2025/05/24 19:38:44 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/24 19:38:44 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/24 19:38:44 logger.go:39: Callback URL: 
+INFO: 2025/05/24 19:38:44 logger.go:39: Client Secret is configured
+INFO: 2025/05/24 19:38:44 logger.go:39: Setting up routes
+INFO: 2025/05/24 19:38:44 logger.go:39: Setting up authentication routes
+INFO: 2025/05/24 19:38:44 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/24 19:38:44 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/24 19:38:44 logger.go:39: Callback URL: 
+INFO: 2025/05/24 19:38:44 logger.go:39: Client Secret is configured
+INFO: 2025/05/24 19:38:44 logger.go:39: Server starting on port 3001
+INFO: 2025/05/24 19:41:54 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/24 19:41:54 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/24 21:29:31 logger.go:39: Starting application
+INFO: 2025/05/24 21:29:31 logger.go:39: Connecting to database
+INFO: 2025/05/24 21:29:50 logger.go:39: Starting application
+INFO: 2025/05/24 21:29:50 logger.go:39: Connecting to database
+INFO: 2025/05/24 21:29:51 logger.go:39: Initializing OAuth configuration
+INFO: 2025/05/24 21:29:51 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/24 21:29:51 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/24 21:29:51 logger.go:39: Callback URL: 
+INFO: 2025/05/24 21:29:51 logger.go:39: Client Secret is configured
+INFO: 2025/05/24 21:29:51 logger.go:39: Setting up routes
+INFO: 2025/05/24 21:29:51 logger.go:39: Setting up authentication routes
+INFO: 2025/05/24 21:29:51 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/24 21:29:51 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/24 21:29:51 logger.go:39: Callback URL: 
+INFO: 2025/05/24 21:29:51 logger.go:39: Client Secret is configured
+INFO: 2025/05/24 21:29:51 logger.go:39: Server starting on port 3001
+INFO: 2025/05/24 21:30:06 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/24 21:30:06 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/24 21:30:06 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/24 21:30:06 logger.go:39: User 1 authenticated successfully for route: /auth/me

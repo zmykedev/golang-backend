@@ -1,0 +1,64 @@
+INFO: 2025/05/26 10:29:40 logger.go:39: Starting application
+INFO: 2025/05/26 10:29:40 logger.go:39: Connecting to database
+INFO: 2025/05/26 10:29:40 logger.go:39: Database connected and migrated successfully
+INFO: 2025/05/26 10:29:40 logger.go:39: Initializing OAuth configuration
+INFO: 2025/05/26 10:29:40 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/26 10:29:40 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/26 10:29:40 logger.go:39: Callback URL: 
+INFO: 2025/05/26 10:29:40 logger.go:39: Client Secret is configured
+INFO: 2025/05/26 10:29:40 logger.go:39: Setting up routes
+INFO: 2025/05/26 10:29:40 logger.go:39: Setting up authentication routes
+INFO: 2025/05/26 10:29:40 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/26 10:29:40 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/26 10:29:40 logger.go:39: Callback URL: 
+INFO: 2025/05/26 10:29:40 logger.go:39: Client Secret is configured
+INFO: 2025/05/26 10:29:40 logger.go:39: Server starting on port 3001
+INFO: 2025/05/26 10:31:14 logger.go:39: Processing protected route: /auth/me
+ERROR: 2025/05/26 10:31:14 logger.go:46: Token validation failed for route: /auth/me, error: token has invalid claims: token is expired
+INFO: 2025/05/26 10:31:14 logger.go:39: Processing protected route: /auth/me
+ERROR: 2025/05/26 10:31:14 logger.go:46: Token validation failed for route: /auth/me, error: token has invalid claims: token is expired
+INFO: 2025/05/26 10:33:38 logger.go:39: Starting application
+INFO: 2025/05/26 10:33:38 logger.go:39: Connecting to database
+INFO: 2025/05/26 10:33:39 logger.go:39: Database connected and migrated successfully
+INFO: 2025/05/26 10:33:39 logger.go:39: Initializing OAuth configuration
+INFO: 2025/05/26 10:33:39 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/26 10:33:39 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/26 10:33:39 logger.go:39: Callback URL: 
+INFO: 2025/05/26 10:33:39 logger.go:39: Client Secret is configured
+INFO: 2025/05/26 10:33:39 logger.go:39: Setting up routes
+INFO: 2025/05/26 10:33:39 logger.go:39: Setting up authentication routes
+INFO: 2025/05/26 10:33:39 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/26 10:33:39 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/26 10:33:39 logger.go:39: Callback URL: 
+INFO: 2025/05/26 10:33:39 logger.go:39: Client Secret is configured
+INFO: 2025/05/26 10:33:39 logger.go:39: Server starting on port 3001
+INFO: 2025/05/26 10:33:47 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/26 10:33:47 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/26 10:34:26 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/26 10:34:26 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/26 10:34:30 logger.go:39: Processing protected route: /auth/update-role
+INFO: 2025/05/26 10:34:30 logger.go:39: User 1 authenticated successfully for route: /auth/update-role
+INFO: 2025/05/26 10:34:30 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/26 10:34:30 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/26 10:36:08 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/26 10:36:08 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/26 10:36:08 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/26 10:36:08 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/26 10:36:16 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/26 10:36:16 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/26 10:37:55 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/26 10:37:55 logger.go:39: User 4 authenticated successfully for route: /auth/me
+INFO: 2025/05/26 10:38:55 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/26 10:38:55 logger.go:39: User 4 authenticated successfully for route: /auth/me
+INFO: 2025/05/26 10:38:55 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/26 10:38:55 logger.go:39: User 4 authenticated successfully for route: /auth/me
+INFO: 2025/05/26 10:38:57 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/26 10:38:57 logger.go:39: User 4 authenticated successfully for route: /auth/me
+INFO: 2025/05/26 10:38:57 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/26 10:38:57 logger.go:39: User 4 authenticated successfully for route: /auth/me
+INFO: 2025/05/26 10:39:34 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/26 10:39:34 logger.go:39: User 4 authenticated successfully for route: /auth/me
+INFO: 2025/05/26 10:39:38 logger.go:39: Processing protected route: /auth/update-role
+INFO: 2025/05/26 10:39:38 logger.go:39: User 4 authenticated successfully for route: /auth/update-role
+INFO: 2025/05/26 10:39:38 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/26 10:39:38 logger.go:39: User 4 authenticated successfully for route: /auth/me

@@ -1,0 +1,1226 @@
+INFO: 2025/05/25 14:37:41 logger.go:39: Starting application
+INFO: 2025/05/25 14:37:41 logger.go:39: Connecting to database
+INFO: 2025/05/25 14:44:51 logger.go:39: Starting application
+INFO: 2025/05/25 14:44:51 logger.go:39: Connecting to database
+INFO: 2025/05/25 14:44:51 logger.go:39: Initializing OAuth configuration
+INFO: 2025/05/25 14:44:51 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/25 14:44:51 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/25 14:44:51 logger.go:39: Callback URL: 
+INFO: 2025/05/25 14:44:51 logger.go:39: Client Secret is configured
+INFO: 2025/05/25 14:44:51 logger.go:39: Setting up routes
+INFO: 2025/05/25 14:44:51 logger.go:39: Setting up authentication routes
+INFO: 2025/05/25 14:44:51 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/25 14:44:51 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/25 14:44:51 logger.go:39: Callback URL: 
+INFO: 2025/05/25 14:44:51 logger.go:39: Client Secret is configured
+INFO: 2025/05/25 14:44:51 logger.go:39: Server starting on port 3001
+INFO: 2025/05/25 14:45:13 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 14:45:13 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 14:45:13 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 14:45:13 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 14:58:44 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 14:58:44 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 14:58:44 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 14:58:44 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 14:58:46 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 14:58:46 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 14:58:46 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 14:58:46 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 14:58:53 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 14:58:53 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 14:58:53 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 14:58:53 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 14:58:58 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 14:58:58 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 14:58:58 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 14:58:58 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 14:59:22 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 14:59:22 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 14:59:22 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 14:59:22 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 14:59:24 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 14:59:24 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 14:59:24 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 14:59:24 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 15:12:59 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 15:12:59 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 15:13:11 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 15:13:11 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 15:13:11 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 15:13:11 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 15:17:44 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 15:17:44 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 15:18:17 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 15:18:17 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 15:18:17 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 15:18:17 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 15:19:05 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 15:19:05 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 15:19:05 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 15:19:05 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 15:24:12 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 15:24:12 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 15:24:12 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 15:24:12 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 15:36:21 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 15:36:21 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 15:36:21 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 15:36:21 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 15:45:16 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 15:45:16 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 15:45:16 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 15:45:16 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 15:47:56 logger.go:39: Starting application
+INFO: 2025/05/25 15:47:56 logger.go:39: Connecting to database
+INFO: 2025/05/25 15:47:56 logger.go:39: Initializing OAuth configuration
+INFO: 2025/05/25 15:47:56 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/25 15:47:56 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/25 15:47:56 logger.go:39: Callback URL: 
+INFO: 2025/05/25 15:47:56 logger.go:39: Client Secret is configured
+INFO: 2025/05/25 15:47:56 logger.go:39: Setting up routes
+INFO: 2025/05/25 15:47:56 logger.go:39: Setting up authentication routes
+INFO: 2025/05/25 15:47:56 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/25 15:47:56 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/25 15:47:56 logger.go:39: Callback URL: 
+INFO: 2025/05/25 15:47:56 logger.go:39: Client Secret is configured
+INFO: 2025/05/25 15:47:56 logger.go:39: Server starting on port 3001
+INFO: 2025/05/25 15:48:04 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 15:48:04 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 15:48:04 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 15:48:04 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 15:48:24 logger.go:39: Processing protected route: /api/drivers
+INFO: 2025/05/25 15:48:24 logger.go:39: User 1 authenticated successfully for route: /api/drivers
+INFO: 2025/05/25 15:50:13 logger.go:39: Starting application
+INFO: 2025/05/25 15:50:13 logger.go:39: Connecting to database
+INFO: 2025/05/25 15:50:13 logger.go:39: Initializing OAuth configuration
+INFO: 2025/05/25 15:50:13 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/25 15:50:13 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/25 15:50:13 logger.go:39: Callback URL: 
+INFO: 2025/05/25 15:50:13 logger.go:39: Client Secret is configured
+INFO: 2025/05/25 15:50:13 logger.go:39: Setting up routes
+INFO: 2025/05/25 15:50:13 logger.go:39: Setting up authentication routes
+INFO: 2025/05/25 15:50:13 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/25 15:50:13 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/25 15:50:13 logger.go:39: Callback URL: 
+INFO: 2025/05/25 15:50:13 logger.go:39: Client Secret is configured
+INFO: 2025/05/25 15:50:13 logger.go:39: Server starting on port 3001
+INFO: 2025/05/25 15:50:21 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 15:50:21 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 15:50:21 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 15:50:21 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 15:50:39 logger.go:39: Processing protected route: /api/drivers
+INFO: 2025/05/25 15:50:39 logger.go:39: User 1 authenticated successfully for route: /api/drivers
+INFO: 2025/05/25 15:53:34 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 15:53:34 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 15:53:35 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 15:53:35 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 15:55:40 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 15:55:40 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 15:55:40 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 15:55:40 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 16:03:22 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 16:03:22 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 16:03:22 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 16:03:22 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 16:07:47 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 16:07:47 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 16:07:47 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 16:07:47 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 16:08:36 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 16:08:36 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 16:08:37 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 16:08:37 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 16:09:19 logger.go:39: Starting application
+INFO: 2025/05/25 16:09:19 logger.go:39: Connecting to database
+INFO: 2025/05/25 16:09:20 logger.go:39: Initializing OAuth configuration
+INFO: 2025/05/25 16:09:20 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/25 16:09:20 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/25 16:09:20 logger.go:39: Callback URL: 
+INFO: 2025/05/25 16:09:20 logger.go:39: Client Secret is configured
+INFO: 2025/05/25 16:09:20 logger.go:39: Setting up routes
+INFO: 2025/05/25 16:09:20 logger.go:39: Setting up authentication routes
+INFO: 2025/05/25 16:09:20 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/25 16:09:20 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/25 16:09:20 logger.go:39: Callback URL: 
+INFO: 2025/05/25 16:09:20 logger.go:39: Client Secret is configured
+INFO: 2025/05/25 16:09:20 logger.go:39: Server starting on port 3001
+INFO: 2025/05/25 16:09:26 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 16:09:26 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 16:09:26 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 16:09:26 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 16:11:08 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 16:11:08 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 16:11:08 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 16:11:08 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 16:13:44 logger.go:39: Starting application
+INFO: 2025/05/25 16:13:44 logger.go:39: Connecting to database
+INFO: 2025/05/25 16:13:44 logger.go:39: Initializing OAuth configuration
+INFO: 2025/05/25 16:13:44 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/25 16:13:44 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/25 16:13:44 logger.go:39: Callback URL: 
+INFO: 2025/05/25 16:13:44 logger.go:39: Client Secret is configured
+INFO: 2025/05/25 16:13:44 logger.go:39: Setting up routes
+INFO: 2025/05/25 16:13:44 logger.go:39: Setting up authentication routes
+INFO: 2025/05/25 16:13:44 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/25 16:13:44 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/25 16:13:44 logger.go:39: Callback URL: 
+INFO: 2025/05/25 16:13:44 logger.go:39: Client Secret is configured
+INFO: 2025/05/25 16:13:44 logger.go:39: Server starting on port 3001
+INFO: 2025/05/25 16:13:52 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 16:13:52 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 16:13:52 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 16:13:52 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 16:13:56 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 16:13:56 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 16:13:57 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 16:13:57 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 16:14:10 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 16:14:10 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 16:14:10 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 16:14:10 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 16:14:40 logger.go:39: Processing protected route: /api/drivers
+INFO: 2025/05/25 16:14:40 logger.go:39: User 1 authenticated successfully for route: /api/drivers
+INFO: 2025/05/25 16:16:50 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 16:16:50 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 16:16:51 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 16:16:51 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 16:17:22 logger.go:39: Processing protected route: /api/drivers
+INFO: 2025/05/25 16:17:22 logger.go:39: User 1 authenticated successfully for route: /api/drivers
+INFO: 2025/05/25 16:19:02 logger.go:39: Starting application
+INFO: 2025/05/25 16:19:02 logger.go:39: Connecting to database
+INFO: 2025/05/25 16:19:02 logger.go:39: Initializing OAuth configuration
+INFO: 2025/05/25 16:19:02 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/25 16:19:02 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/25 16:19:02 logger.go:39: Callback URL: 
+INFO: 2025/05/25 16:19:02 logger.go:39: Client Secret is configured
+INFO: 2025/05/25 16:19:02 logger.go:39: Setting up routes
+INFO: 2025/05/25 16:19:02 logger.go:39: Setting up authentication routes
+INFO: 2025/05/25 16:19:02 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/25 16:19:02 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/25 16:19:02 logger.go:39: Callback URL: 
+INFO: 2025/05/25 16:19:02 logger.go:39: Client Secret is configured
+INFO: 2025/05/25 16:19:02 logger.go:39: Server starting on port 3001
+INFO: 2025/05/25 16:19:21 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 16:19:21 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 16:19:21 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 16:19:21 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 16:19:46 logger.go:39: Processing protected route: /api/drivers
+INFO: 2025/05/25 16:19:46 logger.go:39: User 1 authenticated successfully for route: /api/drivers
+INFO: 2025/05/25 16:21:02 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 16:21:02 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 16:21:02 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 16:21:02 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 16:21:15 logger.go:39: Processing protected route: /api/drivers
+INFO: 2025/05/25 16:21:15 logger.go:39: User 1 authenticated successfully for route: /api/drivers
+INFO: 2025/05/25 16:22:51 logger.go:39: Processing protected route: /api/drivers
+ERROR: 2025/05/25 16:22:51 logger.go:46: Token validation failed for route: /api/drivers, error: token has invalid claims: token is expired
+INFO: 2025/05/25 16:22:57 logger.go:39: Starting application
+INFO: 2025/05/25 16:22:57 logger.go:39: Connecting to database
+INFO: 2025/05/25 16:22:57 logger.go:39: Initializing OAuth configuration
+INFO: 2025/05/25 16:22:57 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/25 16:22:57 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/25 16:22:57 logger.go:39: Callback URL: 
+INFO: 2025/05/25 16:22:57 logger.go:39: Client Secret is configured
+INFO: 2025/05/25 16:22:57 logger.go:39: Setting up routes
+INFO: 2025/05/25 16:22:57 logger.go:39: Setting up authentication routes
+INFO: 2025/05/25 16:22:57 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/25 16:22:57 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/25 16:22:57 logger.go:39: Callback URL: 
+INFO: 2025/05/25 16:22:57 logger.go:39: Client Secret is configured
+INFO: 2025/05/25 16:22:57 logger.go:39: Server starting on port 3001
+INFO: 2025/05/25 16:23:02 logger.go:39: Processing protected route: /api/drivers
+ERROR: 2025/05/25 16:23:02 logger.go:46: Token validation failed for route: /api/drivers, error: token has invalid claims: token is expired
+INFO: 2025/05/25 16:23:03 logger.go:39: Processing protected route: /api/drivers
+ERROR: 2025/05/25 16:23:03 logger.go:46: Token validation failed for route: /api/drivers, error: token has invalid claims: token is expired
+INFO: 2025/05/25 16:23:11 logger.go:39: Processing protected route: /auth/me
+ERROR: 2025/05/25 16:23:11 logger.go:46: Token validation failed for route: /auth/me, error: token has invalid claims: token is expired
+INFO: 2025/05/25 16:23:12 logger.go:39: Processing protected route: /auth/me
+ERROR: 2025/05/25 16:23:12 logger.go:46: Token validation failed for route: /auth/me, error: token has invalid claims: token is expired
+INFO: 2025/05/25 16:23:37 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 16:23:37 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 16:23:37 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 16:23:37 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 16:23:51 logger.go:39: Processing protected route: /api/drivers
+INFO: 2025/05/25 16:23:51 logger.go:39: User 1 authenticated successfully for route: /api/drivers
+INFO: 2025/05/25 16:25:12 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 16:25:12 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 16:25:12 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 16:25:12 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 16:25:28 logger.go:39: Processing protected route: /api/drivers
+INFO: 2025/05/25 16:25:28 logger.go:39: User 1 authenticated successfully for route: /api/drivers
+INFO: 2025/05/25 16:26:51 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 16:26:51 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 16:26:51 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 16:26:51 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 16:27:36 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 16:27:36 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 16:27:36 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 16:27:36 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 16:37:07 logger.go:39: Processing protected route: /auth/me
+ERROR: 2025/05/25 16:37:07 logger.go:46: Token validation failed for route: /auth/me, error: token has invalid claims: token is expired
+INFO: 2025/05/25 16:37:07 logger.go:39: Processing protected route: /auth/me
+ERROR: 2025/05/25 16:37:07 logger.go:46: Token validation failed for route: /auth/me, error: token has invalid claims: token is expired
+INFO: 2025/05/25 16:37:50 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 16:37:50 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 16:37:50 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 16:37:50 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 16:39:59 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 16:39:59 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 16:39:59 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 16:39:59 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 16:52:50 logger.go:39: Starting application
+INFO: 2025/05/25 16:52:50 logger.go:39: Connecting to database
+INFO: 2025/05/25 16:52:50 logger.go:39: Initializing OAuth configuration
+INFO: 2025/05/25 16:52:50 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/25 16:52:50 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/25 16:52:50 logger.go:39: Callback URL: 
+INFO: 2025/05/25 16:52:50 logger.go:39: Client Secret is configured
+INFO: 2025/05/25 16:52:50 logger.go:39: Setting up routes
+INFO: 2025/05/25 16:52:50 logger.go:39: Setting up authentication routes
+INFO: 2025/05/25 16:52:50 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/25 16:52:50 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/25 16:52:50 logger.go:39: Callback URL: 
+INFO: 2025/05/25 16:52:50 logger.go:39: Client Secret is configured
+INFO: 2025/05/25 16:52:50 logger.go:39: Server starting on port 3001
+INFO: 2025/05/25 16:53:20 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 16:53:20 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 16:53:20 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 16:53:20 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 16:56:46 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 16:56:46 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 16:56:46 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 16:56:46 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 17:47:42 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 17:47:42 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 17:47:42 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 17:47:42 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 17:48:26 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 17:48:26 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 17:48:26 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 17:48:26 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 17:48:29 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 17:48:29 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 17:48:29 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 17:48:29 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 17:48:54 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 17:48:54 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 17:48:54 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 17:48:54 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 18:12:11 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 18:12:11 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 18:12:11 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 18:12:11 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 18:19:26 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 18:19:26 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 18:19:27 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 18:19:27 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 18:43:11 logger.go:39: Starting application
+INFO: 2025/05/25 18:43:11 logger.go:39: Connecting to database
+INFO: 2025/05/25 19:24:36 logger.go:39: Starting application
+INFO: 2025/05/25 19:24:36 logger.go:39: Connecting to database
+INFO: 2025/05/25 19:25:12 logger.go:39: Starting application
+INFO: 2025/05/25 19:25:12 logger.go:39: Connecting to database
+INFO: 2025/05/25 19:25:12 logger.go:39: Initializing OAuth configuration
+INFO: 2025/05/25 19:25:12 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/25 19:25:12 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/25 19:25:12 logger.go:39: Callback URL: 
+INFO: 2025/05/25 19:25:12 logger.go:39: Client Secret is configured
+INFO: 2025/05/25 19:25:12 logger.go:39: Setting up routes
+INFO: 2025/05/25 19:25:12 logger.go:39: Setting up authentication routes
+INFO: 2025/05/25 19:25:12 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/25 19:25:12 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/25 19:25:12 logger.go:39: Callback URL: 
+INFO: 2025/05/25 19:25:12 logger.go:39: Client Secret is configured
+INFO: 2025/05/25 19:25:12 logger.go:39: Server starting on port 3001
+INFO: 2025/05/25 19:25:22 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:25:22 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:25:22 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:25:22 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:26:09 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:26:09 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:26:10 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:26:10 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:26:10 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:26:10 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:26:15 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:26:15 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:26:15 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:26:15 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:26:31 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:26:31 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:26:31 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:26:31 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:27:52 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:27:52 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:27:52 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:27:52 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:27:52 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:27:52 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:27:52 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:27:52 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:27:52 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:27:52 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:28:02 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:28:02 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:28:02 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:28:02 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:28:02 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:28:02 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:28:50 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:28:50 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:28:50 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:28:50 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:28:50 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:28:50 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:37:40 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:37:40 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:37:40 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:37:40 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:37:40 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:37:40 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:43:22 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:43:22 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:43:22 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:43:22 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:43:22 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:43:22 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:36 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:36 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:36 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:36 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:36 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:36 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:36 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:36 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:36 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:36 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:37 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:37 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:37 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:37 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:37 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:37 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:37 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:37 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:37 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:37 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:37 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:37 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:38 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:38 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:38 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:38 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:38 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:38 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:38 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:38 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:38 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:38 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:39 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:39 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:39 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:39 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:39 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:39 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:39 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:39 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:39 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:39 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:39 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:39 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:40 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:40 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:40 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:40 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:40 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:40 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:40 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:40 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:40 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:40 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:41 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:41 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:41 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:41 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:41 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:41 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:41 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:41 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:41 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:41 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:42 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:42 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:42 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:42 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:42 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:42 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:42 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:42 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:42 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:42 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:43 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:43 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:43 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:43 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:43 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:43 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:43 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:43 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:43 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:43 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:43 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:43 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:44 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:44 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:44 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:44 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:44 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:44 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:44 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:44 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:44 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:44 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:45 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:45 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:45 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:45 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:45 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:45 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:45 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:45 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:45 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:45 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:46 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:46 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:46 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:46 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:46 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:46 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:46 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:46 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:46 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:46 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:46 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:46 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:47 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:47 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:47 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:47 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:47 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:47 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:47 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:47 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:47 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:47 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:48 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:48 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:48 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:48 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:48 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:48 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:48 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:48 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:48 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:48 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:48 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:48 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:49 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:49 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:49 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:49 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:49 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:49 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:49 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:49 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:49 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:49 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:50 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:50 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:50 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:50 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:50 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:50 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:50 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:50 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:50 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:50 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:51 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:51 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:51 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:51 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:51 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:51 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:51 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:51 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:51 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:51 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:51 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:51 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:52 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:52 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:52 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:52 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:52 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:52 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:52 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:52 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:52 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:52 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:53 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:53 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:53 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:53 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:53 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:53 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:53 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:53 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:53 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:53 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:53 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:53 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:54 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:54 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:54 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:54 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:54 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:54 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:54 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:54 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:54 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:54 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:55 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:55 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:55 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:55 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:55 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:55 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:55 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:55 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:55 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:55 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:56 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:56 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:56 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:56 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:56 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:56 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:56 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:56 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:56 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:56 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:56 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:56 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:57 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:57 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:57 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:57 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:57 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:57 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:57 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:57 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:57 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:57 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:57 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:57 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:58 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:58 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:58 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:58 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:58 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:58 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:58 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:58 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:58 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:58 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:59 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:59 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:59 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:59 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:59 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:59 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:59 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:59 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:57:59 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:57:59 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:00 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:00 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:00 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:00 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:00 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:00 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:00 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:00 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:00 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:00 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:00 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:00 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:01 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:01 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:01 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:01 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:01 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:01 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:01 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:01 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:01 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:01 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:02 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:02 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:02 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:02 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:02 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:02 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:02 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:02 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:02 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:02 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:02 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:02 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:03 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:03 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:03 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:03 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:03 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:03 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:03 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:03 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:03 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:03 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:04 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:04 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:04 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:04 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:04 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:04 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:04 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:04 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:04 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:04 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:04 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:04 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:05 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:05 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:05 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:05 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:05 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:05 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:05 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:05 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:05 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:05 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:06 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:06 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:06 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:06 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:06 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:06 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:06 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:06 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:06 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:06 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:06 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:06 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:07 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:07 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:07 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:07 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:07 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:07 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:07 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:07 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:07 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:07 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:08 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:08 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:08 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:08 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:08 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:08 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:08 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:08 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:08 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:08 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:08 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:08 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:09 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:09 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:09 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:09 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:09 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:09 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:09 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:09 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:09 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:09 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:10 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:10 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:10 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:10 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:10 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:10 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:10 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:10 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:10 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:10 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:10 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:10 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:11 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:11 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:11 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:11 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:11 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:11 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:11 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:11 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:11 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:11 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:12 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:12 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:12 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:12 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:12 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:12 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:12 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:12 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:12 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:12 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:13 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:13 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:13 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:13 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:13 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:13 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:13 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:13 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:13 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:13 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:13 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:13 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:14 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:14 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:14 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:14 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:14 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:14 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:14 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:14 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:14 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:14 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:15 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:15 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:15 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:15 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:15 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:15 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:15 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:15 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:15 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:15 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:15 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:15 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:16 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:16 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:16 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:16 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:16 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:16 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:16 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:16 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:16 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:16 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:17 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:17 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:17 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:17 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:17 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:17 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:17 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:17 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:17 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:17 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:17 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:17 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:18 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:18 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:18 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:18 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:18 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:18 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:18 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:18 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:18 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:18 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:19 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:19 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:19 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:19 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:19 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:19 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:19 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:19 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:19 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:19 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:20 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:20 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:20 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:20 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:20 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:20 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:20 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:20 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:20 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:20 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:20 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:20 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:21 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:21 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:21 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:21 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:21 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:21 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:21 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:21 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:21 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:21 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:22 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:22 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:22 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:22 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:22 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:22 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:22 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:22 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:22 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:22 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:23 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:23 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:23 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:23 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:23 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:23 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:23 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:23 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:23 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:23 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:23 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:23 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:24 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:24 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:24 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:24 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:24 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:24 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:24 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:24 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:24 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:24 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:25 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:25 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:25 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:25 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:25 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:25 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:25 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:25 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:25 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:25 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:26 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:26 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:26 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:26 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:26 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:26 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:26 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:26 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:26 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:26 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:26 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:26 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:27 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:27 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:27 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:27 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:27 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:27 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:27 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:27 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:27 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:27 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:28 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:28 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:28 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:28 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:28 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:28 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:28 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:28 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:28 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:28 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:29 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:29 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:29 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:29 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:29 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:29 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:29 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:29 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:29 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:29 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:29 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:29 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:30 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:30 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:30 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:30 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:30 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:30 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:30 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:30 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:30 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:30 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:31 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:31 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:31 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:31 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:31 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:31 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:31 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:31 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:31 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:31 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:32 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:32 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:32 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:32 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:32 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:32 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:32 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:32 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:32 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:32 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:32 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:32 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:33 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:33 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:33 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:33 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:33 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:33 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:33 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:33 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:33 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:33 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:34 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:34 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:34 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:34 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:34 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:34 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:34 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:34 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:34 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:34 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:34 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:34 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:35 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:35 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:35 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:35 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:35 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:35 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:35 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:35 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:35 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:35 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:36 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:36 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:36 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:36 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:36 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:36 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:36 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:36 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:36 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:36 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:37 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:37 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:37 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:37 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:37 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:37 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:37 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:37 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:37 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:37 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:37 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:37 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:38 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:38 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:38 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:38 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:38 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:38 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:38 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:38 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:38 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:38 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:39 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:39 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:39 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:39 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:39 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:39 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:39 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:39 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:39 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:39 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:39 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:39 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:40 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:40 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:40 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:40 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:40 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:40 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:40 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:40 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:40 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:40 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:41 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:41 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:41 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:41 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:41 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:41 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:41 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:41 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:41 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:41 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:41 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:41 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:42 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:42 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:42 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:42 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:42 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:42 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:42 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:42 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:42 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:42 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:43 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:43 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:43 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:43 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:43 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:43 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:43 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:43 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:43 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:43 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:43 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:43 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:44 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:44 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:44 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:44 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:44 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:44 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:44 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:44 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 19:58:44 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 19:58:44 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 20:00:20 logger.go:39: Starting application
+INFO: 2025/05/25 20:00:20 logger.go:39: Connecting to database
+INFO: 2025/05/25 20:00:20 logger.go:39: Initializing OAuth configuration
+INFO: 2025/05/25 20:00:20 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/25 20:00:20 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/25 20:00:20 logger.go:39: Callback URL: 
+INFO: 2025/05/25 20:00:20 logger.go:39: Client Secret is configured
+INFO: 2025/05/25 20:00:20 logger.go:39: Setting up routes
+INFO: 2025/05/25 20:00:20 logger.go:39: Setting up authentication routes
+INFO: 2025/05/25 20:00:20 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/25 20:00:20 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/25 20:00:20 logger.go:39: Callback URL: 
+INFO: 2025/05/25 20:00:20 logger.go:39: Client Secret is configured
+INFO: 2025/05/25 20:00:20 logger.go:39: Server starting on port 3001
+INFO: 2025/05/25 20:00:25 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 20:00:25 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 20:00:33 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 20:00:33 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 20:00:34 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 20:00:34 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 20:02:30 logger.go:39: Starting application
+INFO: 2025/05/25 20:02:30 logger.go:39: Connecting to database
+INFO: 2025/05/25 20:03:47 logger.go:39: Starting application
+INFO: 2025/05/25 20:03:47 logger.go:39: Connecting to database
+INFO: 2025/05/25 20:03:48 logger.go:39: Database connected and migrated successfully
+INFO: 2025/05/25 20:03:48 logger.go:39: Initializing OAuth configuration
+INFO: 2025/05/25 20:03:48 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/25 20:03:48 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/25 20:03:48 logger.go:39: Callback URL: 
+INFO: 2025/05/25 20:03:48 logger.go:39: Client Secret is configured
+INFO: 2025/05/25 20:03:48 logger.go:39: Setting up routes
+INFO: 2025/05/25 20:03:48 logger.go:39: Setting up authentication routes
+INFO: 2025/05/25 20:03:48 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/25 20:03:48 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/25 20:03:48 logger.go:39: Callback URL: 
+INFO: 2025/05/25 20:03:48 logger.go:39: Client Secret is configured
+INFO: 2025/05/25 20:03:48 logger.go:39: Server starting on port 3001
+INFO: 2025/05/25 20:03:56 logger.go:39: Processing protected route: /auth/update-role
+INFO: 2025/05/25 20:03:56 logger.go:39: User 1 authenticated successfully for route: /auth/update-role
+INFO: 2025/05/25 20:03:56 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 20:03:56 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 20:04:06 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 20:04:06 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 20:04:06 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 20:04:06 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 20:07:09 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 20:07:09 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 20:07:09 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 20:07:09 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 20:07:16 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 20:07:16 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 20:07:16 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 20:07:16 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 20:10:39 logger.go:39: Processing protected route: /auth/me
+ERROR: 2025/05/25 20:10:39 logger.go:46: Token validation failed for route: /auth/me, error: token has invalid claims: token is expired
+INFO: 2025/05/25 20:10:39 logger.go:39: Processing protected route: /auth/me
+ERROR: 2025/05/25 20:10:39 logger.go:46: Token validation failed for route: /auth/me, error: token has invalid claims: token is expired
+INFO: 2025/05/25 20:15:50 logger.go:39: Starting application
+INFO: 2025/05/25 20:15:50 logger.go:39: Connecting to database
+INFO: 2025/05/25 20:15:50 logger.go:39: Database connected and migrated successfully
+INFO: 2025/05/25 20:15:50 logger.go:39: Initializing OAuth configuration
+INFO: 2025/05/25 20:15:50 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/25 20:15:50 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/25 20:15:50 logger.go:39: Callback URL: 
+INFO: 2025/05/25 20:15:50 logger.go:39: Client Secret is configured
+INFO: 2025/05/25 20:15:50 logger.go:39: Setting up routes
+INFO: 2025/05/25 20:15:50 logger.go:39: Setting up authentication routes
+INFO: 2025/05/25 20:15:50 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/25 20:15:50 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/25 20:15:50 logger.go:39: Callback URL: 
+INFO: 2025/05/25 20:15:50 logger.go:39: Client Secret is configured
+INFO: 2025/05/25 20:15:50 logger.go:39: Server starting on port 3001
+INFO: 2025/05/25 20:26:57 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 20:26:57 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 20:27:01 logger.go:39: Processing protected route: /auth/update-role
+INFO: 2025/05/25 20:27:01 logger.go:39: User 1 authenticated successfully for route: /auth/update-role
+INFO: 2025/05/25 20:27:01 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 20:27:01 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 20:40:52 logger.go:39: Processing protected route: /auth/me
+ERROR: 2025/05/25 20:40:52 logger.go:46: Token validation failed for route: /auth/me, error: token has invalid claims: token is expired
+INFO: 2025/05/25 20:40:52 logger.go:39: Processing protected route: /auth/me
+ERROR: 2025/05/25 20:40:52 logger.go:46: Token validation failed for route: /auth/me, error: token has invalid claims: token is expired
+INFO: 2025/05/25 20:40:59 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 20:40:59 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 20:43:45 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 20:43:45 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 20:43:45 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 20:43:45 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/25 20:54:36 logger.go:39: Processing protected route: /auth/me
+ERROR: 2025/05/25 20:54:36 logger.go:46: Token validation failed for route: /auth/me, error: token has invalid claims: token is expired
+INFO: 2025/05/25 20:54:36 logger.go:39: Processing protected route: /auth/me
+ERROR: 2025/05/25 20:54:36 logger.go:46: Token validation failed for route: /auth/me, error: token has invalid claims: token is expired
+INFO: 2025/05/25 20:54:43 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/25 20:54:43 logger.go:39: User 1 authenticated successfully for route: /auth/me
