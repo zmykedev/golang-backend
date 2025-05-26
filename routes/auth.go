@@ -181,7 +181,7 @@ func SetupAuthRoutes(app *fiber.App, authService *services.AuthService) {
 		// Redirect to frontend with token and user info
 		frontendURL := os.Getenv("FRONTEND_URL")
 		if frontendURL == "" {
-			frontendURL = "http://localhost:5173" // Default frontend URL now uses port 5173
+			frontendURL = "https://tourist-golang.netlify.app/" // Default frontend URL now uses port 5173
 		}
 		return c.Redirect(fmt.Sprintf("%s/success?token=%s&name=%s&email=%s",
 			frontendURL, token, url.QueryEscape(user.Name), url.QueryEscape(user.Email)))

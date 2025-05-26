@@ -42,7 +42,7 @@ func main() {
 	// Middleware
 	app.Use(logger.New())
 	app.Use(cors.New(cors.Config{
-		AllowOrigins: "http://localhost:5173",
+		AllowOrigins: "https://tourist-golang.netlify.app/",
 		AllowHeaders: "Origin, Content-Type, Accept, Authorization",
 		AllowMethods: "GET, POST, PUT, DELETE, PATCH",
 	}))
