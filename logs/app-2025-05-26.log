@@ -62,3 +62,18 @@ INFO: 2025/05/26 10:39:38 logger.go:39: Processing protected route: /auth/update
 INFO: 2025/05/26 10:39:38 logger.go:39: User 4 authenticated successfully for route: /auth/update-role
 INFO: 2025/05/26 10:39:38 logger.go:39: Processing protected route: /auth/me
 INFO: 2025/05/26 10:39:38 logger.go:39: User 4 authenticated successfully for route: /auth/me
+INFO: 2025/05/26 20:01:10 logger.go:39: Starting application
+INFO: 2025/05/26 20:01:10 logger.go:39: Connecting to database
+INFO: 2025/05/26 20:01:23 logger.go:39: Database connected and migrated successfully
+INFO: 2025/05/26 20:01:23 logger.go:39: Initializing OAuth configuration
+INFO: 2025/05/26 20:01:23 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/26 20:01:23 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/26 20:01:23 logger.go:39: Callback URL: 
+INFO: 2025/05/26 20:01:23 logger.go:39: Client Secret is configured
+INFO: 2025/05/26 20:01:23 logger.go:39: Setting up routes
+INFO: 2025/05/26 20:01:23 logger.go:39: Setting up authentication routes
+INFO: 2025/05/26 20:01:23 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/26 20:01:23 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/26 20:01:23 logger.go:39: Callback URL: 
+INFO: 2025/05/26 20:01:23 logger.go:39: Client Secret is configured
+INFO: 2025/05/26 20:01:23 logger.go:39: Server starting on port 3001

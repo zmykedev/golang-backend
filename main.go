@@ -42,9 +42,10 @@ func main() {
 	// Middleware
 	app.Use(logger.New())
 	app.Use(cors.New(cors.Config{
-		AllowOrigins: "https://tourist-golang.netlify.app/",
-		AllowHeaders: "Origin, Content-Type, Accept, Authorization",
-		AllowMethods: "GET, POST, PUT, DELETE, PATCH",
+		AllowOrigins:     "*", // Permitir todos los orígenes en desarrollo
+		AllowHeaders:     "Origin, Content-Type, Accept, Authorization",
+		AllowMethods:     "GET, POST, PUT, DELETE, PATCH",
+		AllowCredentials: true,
 	}))
 
 	// Initialize services

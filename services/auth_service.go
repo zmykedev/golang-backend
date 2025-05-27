@@ -110,6 +110,7 @@ func (s *AuthService) findOrCreateGoogleUser(userInfo *GoogleUserInfo) (*models.
 	// Try to find existing user by Google ID first
 	result := s.db.Where("google_id = ?", userInfo.ID).First(&user)
 	if result.Error == nil {
+		utils.LogInfo("Found existing user by Google ID: %s", user.Email)
 		return &user, nil
 	}
 
@@ -119,21 +120,29 @@ func (s *AuthService) findOrCreateGoogleUser(userInfo *GoogleUserInfo) (*models.
 		// Update existing user with Google ID
 		user.GoogleID = userInfo.ID
 		if err := s.db.Save(&user).Error; err != nil {
+			utils.LogError("Failed to update existing user with Google ID: %v", err)
 			return nil, err
 		}
+		utils.LogInfo("Updated existing user with Google ID: %s", user.Email)
 		return &user, nil
 	}
 
+	// Generate a random password for the new user
+	randomPassword := utils.GenerateRandomPassword()
+
 	// Create new user if not found
-	user = models.User{
+	newUser := models.User{
 		Email:    userInfo.Email,
 		Name:     userInfo.Name,
 		GoogleID: userInfo.ID,
+		Password: randomPassword, // Set the random password
 	}
 
-	if err := s.db.Create(&user).Error; err != nil {
+	if err := s.db.Create(&newUser).Error; err != nil {
+		utils.LogError("Failed to create new user from Google OAuth: %v", err)
 		return nil, err
 	}
 
-	return &user, nil
+	utils.LogInfo("Created new user from Google OAuth: %s", newUser.Email)
+	return &newUser, nil
 }
