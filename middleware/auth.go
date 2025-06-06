@@ -53,8 +53,19 @@ func Protected() fiber.Handler {
 
 		// Check if the token is valid
 		if claims, ok := token.Claims.(jwt.MapClaims); ok && token.Valid {
+			// Get user_id from claims
+			userIDFloat, ok := claims["user_id"].(float64)
+			if !ok {
+				utils.LogError("Invalid user_id in token claims for route: %s", c.Path())
+				return c.Status(fiber.StatusUnauthorized).JSON(fiber.Map{
+					"error": "Invalid token claims",
+				})
+			}
+
+			// Convert float64 to uint
+			userID := uint(userIDFloat)
+
 			// Set user ID in context
-			userID := uint(claims["sub"].(float64))
 			c.Locals("userID", userID)
 			utils.LogInfo("User %d authenticated successfully for route: %s", userID, c.Path())
 			return c.Next()

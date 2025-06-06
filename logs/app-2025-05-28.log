@@ -1,0 +1,110 @@
+INFO: 2025/05/28 20:34:07 logger.go:39: Starting application
+INFO: 2025/05/28 20:34:07 logger.go:39: Connecting to database
+INFO: 2025/05/28 20:34:11 logger.go:39: Database connected and migrated successfully
+INFO: 2025/05/28 20:34:11 logger.go:39: Initializing OAuth configuration
+INFO: 2025/05/28 20:34:11 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/28 20:34:11 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/28 20:34:11 logger.go:39: Callback URL: 
+INFO: 2025/05/28 20:34:11 logger.go:39: Client Secret is configured
+INFO: 2025/05/28 20:34:11 logger.go:39: Setting up routes
+INFO: 2025/05/28 20:34:11 logger.go:39: Setting up authentication routes
+INFO: 2025/05/28 20:34:11 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/28 20:34:11 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/28 20:34:11 logger.go:39: Callback URL: 
+INFO: 2025/05/28 20:34:11 logger.go:39: Client Secret is configured
+INFO: 2025/05/28 20:34:11 logger.go:39: Server starting on port 3001
+INFO: 2025/05/28 20:52:46 logger.go:39: Processing registration request
+INFO: 2025/05/28 20:52:46 logger.go:39: Registering new user with email: hello@gmail.com
+INFO: 2025/05/28 20:52:46 logger.go:39: Password length: 5
+INFO: 2025/05/28 20:52:46 logger.go:39: Password hashed successfully, hash length: 60
+INFO: 2025/05/28 20:52:48 logger.go:39: User created with ID: 1
+INFO: 2025/05/28 20:52:48 logger.go:39: User registered successfully: hello@gmail.com
+INFO: 2025/05/28 20:52:57 logger.go:39: Processing login request
+INFO: 2025/05/28 20:52:57 logger.go:39: Login attempt for email: hello@gmail.com
+INFO: 2025/05/28 20:52:57 logger.go:39: Found user with ID: 1
+INFO: 2025/05/28 20:52:57 logger.go:39: Input password length: 5
+INFO: 2025/05/28 20:52:57 logger.go:39: Stored hash length: 60
+INFO: 2025/05/28 20:52:57 logger.go:39: User logged in successfully: hello@gmail.com
+INFO: 2025/05/28 20:52:57 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/28 20:52:57 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/28 21:05:05 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/28 21:05:05 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/28 21:05:06 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/28 21:05:06 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/28 21:08:22 logger.go:39: Starting application
+INFO: 2025/05/28 21:08:22 logger.go:39: Connecting to database
+INFO: 2025/05/28 21:08:27 logger.go:39: Database connected and migrated successfully
+INFO: 2025/05/28 21:08:27 logger.go:39: Initializing OAuth configuration
+INFO: 2025/05/28 21:08:27 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/28 21:08:27 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/28 21:08:27 logger.go:39: Callback URL: 
+INFO: 2025/05/28 21:08:27 logger.go:39: Client Secret is configured
+INFO: 2025/05/28 21:08:27 logger.go:39: Setting up routes
+INFO: 2025/05/28 21:08:27 logger.go:39: Setting up authentication routes
+INFO: 2025/05/28 21:08:27 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/28 21:08:27 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/28 21:08:27 logger.go:39: Callback URL: 
+INFO: 2025/05/28 21:08:27 logger.go:39: Client Secret is configured
+INFO: 2025/05/28 21:08:27 logger.go:39: Server starting on port 3001
+INFO: 2025/05/28 21:09:08 logger.go:39: Created new user from Google OAuth: zmaikol399@gmail.com
+INFO: 2025/05/28 21:09:24 logger.go:39: Created new user from Google OAuth: codigoreactivo99@gmail.com
+INFO: 2025/05/28 21:11:20 logger.go:39: Processing registration request
+INFO: 2025/05/28 21:11:20 logger.go:39: Registering new user with email: vuelo@gmail.com
+INFO: 2025/05/28 21:11:20 logger.go:39: User registered successfully: vuelo@gmail.com
+INFO: 2025/05/28 21:11:29 logger.go:39: Processing login request
+INFO: 2025/05/28 21:11:29 logger.go:39: Login attempt for email: vuelo@gmail.com
+INFO: 2025/05/28 21:11:29 logger.go:39: Found user with ID: 3
+INFO: 2025/05/28 21:11:29 logger.go:39: Input password length: 5
+INFO: 2025/05/28 21:11:29 logger.go:39: Stored hash length: 60
+INFO: 2025/05/28 21:11:29 logger.go:39: User logged in successfully: vuelo@gmail.com
+INFO: 2025/05/28 21:11:29 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/28 21:11:29 logger.go:39: User 3 authenticated successfully for route: /auth/me
+INFO: 2025/05/28 21:18:58 logger.go:39: Starting application
+INFO: 2025/05/28 21:18:58 logger.go:39: Connecting to database
+INFO: 2025/05/28 21:19:02 logger.go:39: Database connected and migrated successfully
+INFO: 2025/05/28 21:19:02 logger.go:39: Initializing OAuth configuration
+INFO: 2025/05/28 21:19:02 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/28 21:19:02 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/28 21:19:02 logger.go:39: Callback URL: 
+INFO: 2025/05/28 21:19:02 logger.go:39: Client Secret is configured
+INFO: 2025/05/28 21:19:02 logger.go:39: Setting up routes
+INFO: 2025/05/28 21:19:02 logger.go:39: Setting up authentication routes
+INFO: 2025/05/28 21:19:02 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/28 21:19:02 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/28 21:19:02 logger.go:39: Callback URL: 
+INFO: 2025/05/28 21:19:02 logger.go:39: Client Secret is configured
+INFO: 2025/05/28 21:19:02 logger.go:39: Server starting on port 3001
+INFO: 2025/05/28 21:19:51 logger.go:39: Starting application
+INFO: 2025/05/28 21:19:51 logger.go:39: Connecting to database
+INFO: 2025/05/28 21:19:55 logger.go:39: Database connected and migrated successfully
+INFO: 2025/05/28 21:19:55 logger.go:39: Initializing OAuth configuration
+INFO: 2025/05/28 21:19:55 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/28 21:19:55 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/28 21:19:55 logger.go:39: Callback URL: 
+INFO: 2025/05/28 21:19:55 logger.go:39: Client Secret is configured
+INFO: 2025/05/28 21:19:55 logger.go:39: Setting up routes
+INFO: 2025/05/28 21:19:55 logger.go:39: Setting up authentication routes
+INFO: 2025/05/28 21:19:55 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/28 21:19:55 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/28 21:19:55 logger.go:39: Callback URL: 
+INFO: 2025/05/28 21:19:55 logger.go:39: Client Secret is configured
+INFO: 2025/05/28 21:19:55 logger.go:39: Server starting on port 3001
+INFO: 2025/05/28 21:20:16 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/28 21:20:16 logger.go:39: User 3 authenticated successfully for route: /auth/me
+INFO: 2025/05/28 21:20:17 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/28 21:20:17 logger.go:39: User 3 authenticated successfully for route: /auth/me
+INFO: 2025/05/28 21:20:28 logger.go:39: Processing registration request
+INFO: 2025/05/28 21:20:28 logger.go:39: Registering new user with email: jocsan@gmail.com
+INFO: 2025/05/28 21:20:29 logger.go:39: User registered successfully: jocsan@gmail.com
+INFO: 2025/05/28 21:20:39 logger.go:39: Processing login request
+INFO: 2025/05/28 21:20:39 logger.go:39: Login attempt for email: jocsan@gmail.com
+INFO: 2025/05/28 21:20:39 logger.go:39: Found user with ID: 1
+INFO: 2025/05/28 21:20:39 logger.go:39: Input password length: 6
+INFO: 2025/05/28 21:20:39 logger.go:39: Stored hash length: 60
+INFO: 2025/05/28 21:20:39 logger.go:39: User logged in successfully: jocsan@gmail.com
+INFO: 2025/05/28 21:20:39 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/28 21:20:39 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/28 21:45:11 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/28 21:45:11 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/28 21:45:12 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/28 21:45:12 logger.go:39: User 1 authenticated successfully for route: /auth/me

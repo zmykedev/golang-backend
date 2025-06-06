@@ -14,10 +14,17 @@ import (
 func GenerateToken(user models.User) (string, error) {
 	token := jwt.NewWithClaims(jwt.SigningMethodHS256, jwt.MapClaims{
 		"user_id": user.ID,
+		"email":   user.Email,
+		"name":    user.Name,
 		"exp":     time.Now().Add(time.Hour * 24).Unix(),
 	})
 
-	return token.SignedString([]byte(os.Getenv("JWT_SECRET")))
+	secret := []byte(os.Getenv("JWT_SECRET"))
+	if len(secret) == 0 {
+		secret = []byte("your-secret-key") // Fallback secret key
+	}
+
+	return token.SignedString(secret)
 }
 
 // GenerateRandomPassword generates a random password for Google OAuth users

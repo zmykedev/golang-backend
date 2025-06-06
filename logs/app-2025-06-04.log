@@ -1,0 +1,77 @@
+INFO: 2025/06/04 15:45:34 logger.go:39: Starting application
+INFO: 2025/06/04 15:45:34 logger.go:39: Connecting to database
+INFO: 2025/06/04 15:45:59 logger.go:39: Database connected and migrated successfully
+INFO: 2025/06/04 15:45:59 logger.go:39: Initializing OAuth configuration
+INFO: 2025/06/04 15:45:59 logger.go:39: Initializing OAuth with:
+INFO: 2025/06/04 15:45:59 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/06/04 15:45:59 logger.go:39: Callback URL: 
+INFO: 2025/06/04 15:45:59 logger.go:39: Client Secret is configured
+INFO: 2025/06/04 15:45:59 logger.go:39: Setting up routes
+INFO: 2025/06/04 15:45:59 logger.go:39: Setting up authentication routes
+INFO: 2025/06/04 15:45:59 logger.go:39: Initializing OAuth with:
+INFO: 2025/06/04 15:45:59 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/06/04 15:45:59 logger.go:39: Callback URL: 
+INFO: 2025/06/04 15:45:59 logger.go:39: Client Secret is configured
+INFO: 2025/06/04 15:45:59 logger.go:39: Server starting on port 3001
+INFO: 2025/06/04 15:46:45 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/06/04 15:46:45 logger.go:39: User 3 authenticated successfully for route: /auth/me
+INFO: 2025/06/04 15:46:45 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/06/04 15:46:45 logger.go:39: User 3 authenticated successfully for route: /auth/me
+INFO: 2025/06/04 15:46:51 logger.go:39: Processing login request
+INFO: 2025/06/04 15:46:51 logger.go:39: Login attempt - Email: dro@gmail.com, Password length: 3
+INFO: 2025/06/04 15:46:51 logger.go:39: User found in database - ID: 3, Email: dro@gmail.com
+INFO: 2025/06/04 15:46:51 logger.go:39: Stored password hash: $2a$10$592s733z4dLIjgaoogQPpuHYaC7pejpCxObeW/ca9VwpozwvIrZD6
+INFO: 2025/06/04 15:46:51 logger.go:39: Input password length: 3, Stored hash length: 60
+INFO: 2025/06/04 15:46:51 logger.go:39: Password verified successfully
+INFO: 2025/06/04 15:46:51 logger.go:39: Login successful - User: dro@gmail.com, Token generated
+INFO: 2025/06/04 15:46:51 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/06/04 15:46:51 logger.go:39: User 3 authenticated successfully for route: /auth/me
+INFO: 2025/06/04 15:47:46 logger.go:39: Starting application
+INFO: 2025/06/04 15:47:46 logger.go:39: Connecting to database
+INFO: 2025/06/04 15:47:49 logger.go:39: Database connected and migrated successfully
+INFO: 2025/06/04 15:47:49 logger.go:39: Initializing OAuth configuration
+INFO: 2025/06/04 15:47:49 logger.go:39: Initializing OAuth with:
+INFO: 2025/06/04 15:47:49 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/06/04 15:47:49 logger.go:39: Callback URL: 
+INFO: 2025/06/04 15:47:49 logger.go:39: Client Secret is configured
+INFO: 2025/06/04 15:47:49 logger.go:39: Setting up routes
+INFO: 2025/06/04 15:47:49 logger.go:39: Setting up authentication routes
+INFO: 2025/06/04 15:47:49 logger.go:39: Initializing OAuth with:
+INFO: 2025/06/04 15:47:49 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/06/04 15:47:49 logger.go:39: Callback URL: 
+INFO: 2025/06/04 15:47:49 logger.go:39: Client Secret is configured
+INFO: 2025/06/04 15:47:49 logger.go:39: Server starting on port 3001
+INFO: 2025/06/04 15:50:30 logger.go:39: Created new user from Google OAuth: zmaikol399@gmail.com
+INFO: 2025/06/04 15:51:33 logger.go:39: Created new user from Google OAuth: mykefinance@gmail.com
+INFO: 2025/06/04 15:53:36 logger.go:39: Created new user from Google OAuth: codigoreactivo99@gmail.com
+INFO: 2025/06/04 15:54:02 logger.go:39: Found existing user by Google ID: codigoreactivo99@gmail.com
+INFO: 2025/06/04 15:54:08 logger.go:39: Found existing user by Google ID: codigoreactivo99@gmail.com
+INFO: 2025/06/04 16:02:10 logger.go:39: Processing registration request
+INFO: 2025/06/04 16:02:10 logger.go:39: Registering new user - Email: zmaikol399@gmail.com, Name: Maikol Zapata iriarte
+INFO: 2025/06/04 16:02:10 logger.go:39: Raw password length: 9
+INFO: 2025/06/04 16:02:10 logger.go:39: Password hashed successfully - Hash length: 60, Hash: $2a$10$qsxUbhHJv7cRaPwhnaybj.7teav0tJVWBRQYsGrXo3p9MQTOaj.fm
+ERROR: 2025/06/04 16:02:10 logger.go:46: Failed to create user in database: ERROR: duplicate key value violates unique constraint "users_email_key" (SQLSTATE 23505)
+INFO: 2025/06/04 16:28:10 logger.go:39: Processing registration request
+INFO: 2025/06/04 16:28:10 logger.go:39: Registering new user - Email: zmaikol399@gmail.com, Name: Maikol Zapata iriarte
+INFO: 2025/06/04 16:28:10 logger.go:39: Raw password length: 9
+INFO: 2025/06/04 16:28:10 logger.go:39: Password hashed successfully - Hash length: 60, Hash: $2a$10$TkTpKE2T/1eW3hvp6CQmGOVpM8TWm81uB.SSnVjwCuEJXGO7FfAsa
+ERROR: 2025/06/04 16:28:10 logger.go:46: Failed to create user in database: ERROR: duplicate key value violates unique constraint "users_email_key" (SQLSTATE 23505)
+INFO: 2025/06/04 16:29:02 logger.go:39: Processing registration request
+INFO: 2025/06/04 16:29:02 logger.go:39: Registering new user - Email: mary@gmail.com, Name: Maikol Zapata iriarte
+INFO: 2025/06/04 16:29:02 logger.go:39: Raw password length: 9
+INFO: 2025/06/04 16:29:02 logger.go:39: Password hashed successfully - Hash length: 60, Hash: $2a$10$/pUtJY1LpdT3QyeAQVHF7uVB2k694XkNzTosyAwqmFTeEzsnmy/xS
+INFO: 2025/06/04 16:29:03 logger.go:39: User created successfully in database - ID: 6
+INFO: 2025/06/04 16:29:03 logger.go:39: User registered successfully: mary@gmail.com
+INFO: 2025/06/04 16:29:14 logger.go:39: Processing login request
+INFO: 2025/06/04 16:29:14 logger.go:39: Login attempt - Email: mary@gmail.com, Password length: 9
+INFO: 2025/06/04 16:29:14 logger.go:39: User found in database - ID: 6, Email: mary@gmail.com
+INFO: 2025/06/04 16:29:14 logger.go:39: Stored password hash: $2a$10$/pUtJY1LpdT3QyeAQVHF7uVB2k694XkNzTosyAwqmFTeEzsnmy/xS
+INFO: 2025/06/04 16:29:14 logger.go:39: Input password length: 9, Stored hash length: 60
+INFO: 2025/06/04 16:29:14 logger.go:39: Password verified successfully
+INFO: 2025/06/04 16:29:14 logger.go:39: Login successful - User: mary@gmail.com, Token generated
+INFO: 2025/06/04 16:29:14 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/06/04 16:29:14 logger.go:39: User 6 authenticated successfully for route: /auth/me
+INFO: 2025/06/04 16:53:34 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/06/04 16:53:34 logger.go:39: User 6 authenticated successfully for route: /auth/me
+INFO: 2025/06/04 16:53:35 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/06/04 16:53:35 logger.go:39: User 6 authenticated successfully for route: /auth/me

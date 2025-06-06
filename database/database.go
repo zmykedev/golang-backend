@@ -1,7 +1,6 @@
 package database
 
 import (
-	"fmt"
 	"log"
 	"os"
 
@@ -15,46 +14,34 @@ import (
 var DB *gorm.DB
 
 func Connect() {
-	dsn := fmt.Sprintf("host=%s user=%s password=%s dbname=%s port=%s sslmode=require",
-		os.Getenv("DB_HOST"),
-		os.Getenv("DB_USER"),
-		os.Getenv("DB_PASSWORD"),
-		os.Getenv("DB_NAME"),
-		os.Getenv("DB_PORT"),
-	)
+	dsn := os.Getenv("DATABASE_URL")
 
 	db, err := gorm.Open(postgres.Open(dsn), &gorm.Config{})
 	if err != nil {
 		log.Fatal("Failed to connect to database:", err)
 	}
 
-	// Drop the role column if it exists
-	if err := db.Exec(`ALTER TABLE IF EXISTS users DROP COLUMN IF EXISTS role;`).Error; err != nil {
-		utils.LogError("Failed to drop role column: %v", err)
-	}
-
-	// Create the enum type
-	if err := db.Exec(`DROP TYPE IF EXISTS user_role;`).Error; err != nil {
-		utils.LogError("Failed to drop existing enum type: %v", err)
-	}
-
-	if err := db.Exec(`CREATE TYPE user_role AS ENUM ('tourist', 'driver', 'admin');`).Error; err != nil {
-		log.Fatal("Failed to create enum type:", err)
-	}
+	// Create the enum type if it doesn't exist
+	db.Exec(`DO $$ BEGIN
+		CREATE TYPE user_role AS ENUM ('tourist', 'driver', 'admin');
+		EXCEPTION WHEN duplicate_object THEN null;
+	END $$;`)
 
 	// Auto Migrate the schema
 	err = db.AutoMigrate(
 		&models.User{},
 		&models.Driver{},
 		&models.Tourist{},
+		&models.Booking{},
+		&models.TouristRequest{},
 	)
 	if err != nil {
 		log.Fatal("Failed to migrate database:", err)
 	}
 
-	// Add the role column with the correct type
-	if err := db.Exec(`ALTER TABLE users ADD COLUMN IF NOT EXISTS role user_role DEFAULT NULL;`).Error; err != nil {
-		log.Fatal("Failed to add role column:", err)
+	// Ensure google_id is nullable
+	if err := db.Exec(`ALTER TABLE users ALTER COLUMN google_id DROP NOT NULL;`).Error; err != nil {
+		utils.LogError("Failed to make google_id nullable: %v", err)
 	}
 
 	DB = db

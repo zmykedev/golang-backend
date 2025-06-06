@@ -42,20 +42,23 @@ func main() {
 	// Middleware
 	app.Use(logger.New())
 	app.Use(cors.New(cors.Config{
-		AllowOrigins:     "*", // Permitir todos los orígenes en desarrollo
-		AllowHeaders:     "Origin, Content-Type, Accept, Authorization",
-		AllowMethods:     "GET, POST, PUT, DELETE, PATCH",
+		AllowOrigins:     "*",
+		AllowHeaders:     "Origin, Content-Type, Accept, Authorization, X-Requested-With, X-CSRF-Token",
+		AllowMethods:     "GET,POST,HEAD,PUT,DELETE,PATCH,OPTIONS",
 		AllowCredentials: true,
+		ExposeHeaders:    "Content-Length, Authorization",
+		MaxAge:           86400, // 24 hours cache for preflight requests
 	}))
 
 	// Initialize services
 	authService := services.NewAuthService(database.DB)
+	driverService := services.NewDriverService(database.DB)
 
 	// Setup routes
 	utils.LogInfo("Setting up routes")
 	routes.SetupAuthRoutes(app, authService)
 	routes.SetupTouristRoutes(app)
-	routes.SetupDriverRoutes(app)
+	routes.SetupDriverRoutes(app, driverService)
 
 	// Start server
 	port := os.Getenv("PORT")

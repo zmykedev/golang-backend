@@ -1,0 +1,137 @@
+INFO: 2025/05/31 20:08:23 logger.go:39: Starting application
+INFO: 2025/05/31 20:08:23 logger.go:39: Connecting to database
+INFO: 2025/05/31 20:08:23 logger.go:39: Database connected and migrated successfully
+INFO: 2025/05/31 20:08:23 logger.go:39: Initializing OAuth configuration
+INFO: 2025/05/31 20:08:23 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/31 20:08:23 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/31 20:08:23 logger.go:39: Callback URL: 
+INFO: 2025/05/31 20:08:23 logger.go:39: Client Secret is configured
+INFO: 2025/05/31 20:08:23 logger.go:39: Setting up routes
+INFO: 2025/05/31 20:08:23 logger.go:39: Setting up authentication routes
+INFO: 2025/05/31 20:08:23 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/31 20:08:23 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/31 20:08:23 logger.go:39: Callback URL: 
+INFO: 2025/05/31 20:08:23 logger.go:39: Client Secret is configured
+INFO: 2025/05/31 20:08:23 logger.go:39: Server starting on port 3001
+INFO: 2025/05/31 20:13:00 logger.go:39: Processing protected route: /auth/me
+ERROR: 2025/05/31 20:13:00 logger.go:46: Token validation failed for route: /auth/me, error: token has invalid claims: token is expired
+INFO: 2025/05/31 20:13:00 logger.go:39: Processing protected route: /auth/me
+ERROR: 2025/05/31 20:13:00 logger.go:46: Token validation failed for route: /auth/me, error: token has invalid claims: token is expired
+INFO: 2025/05/31 20:28:49 logger.go:39: Processing login request
+INFO: 2025/05/31 20:28:49 logger.go:39: Login attempt - Email: nolo@gmail.com, Password length: 4
+ERROR: 2025/05/31 20:28:49 logger.go:46: Login failed - User not found in database: nolo@gmail.com
+INFO: 2025/05/31 20:28:55 logger.go:39: Processing login request
+INFO: 2025/05/31 20:28:55 logger.go:39: Login attempt - Email: nala@gmail.com, Password length: 4
+ERROR: 2025/05/31 20:28:55 logger.go:46: Login failed - User not found in database: nala@gmail.com
+INFO: 2025/05/31 20:29:05 logger.go:39: Processing registration request
+INFO: 2025/05/31 20:29:05 logger.go:39: Registering new user - Email: nolo@gmail.com, Name: nolo
+INFO: 2025/05/31 20:29:05 logger.go:39: Raw password length: 4
+INFO: 2025/05/31 20:29:05 logger.go:39: Password hashed successfully - Hash length: 60, Hash: $2a$10$E90xqb5C6WuGXRysJKHNnOP/iZqKpry2V0gVQz8nMsE7vFtRoXlvy
+INFO: 2025/05/31 20:29:05 logger.go:39: User created successfully in database - ID: 1
+INFO: 2025/05/31 20:29:05 logger.go:39: User registered successfully: nolo@gmail.com
+INFO: 2025/05/31 20:29:10 logger.go:39: Processing login request
+INFO: 2025/05/31 20:29:10 logger.go:39: Login attempt - Email: nolo@gmail.com, Password length: 4
+INFO: 2025/05/31 20:29:10 logger.go:39: User found in database - ID: 1, Email: nolo@gmail.com
+INFO: 2025/05/31 20:29:10 logger.go:39: Stored password hash: $2a$10$E90xqb5C6WuGXRysJKHNnOP/iZqKpry2V0gVQz8nMsE7vFtRoXlvy
+INFO: 2025/05/31 20:29:10 logger.go:39: Input password length: 4, Stored hash length: 60
+INFO: 2025/05/31 20:29:10 logger.go:39: Password verified successfully
+INFO: 2025/05/31 20:29:10 logger.go:39: Login successful - User: nolo@gmail.com, Token generated
+INFO: 2025/05/31 20:29:10 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/31 20:29:10 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/31 20:29:18 logger.go:39: Processing protected route: /auth/update-role
+INFO: 2025/05/31 20:29:18 logger.go:39: User 1 authenticated successfully for route: /auth/update-role
+INFO: 2025/05/31 20:29:18 logger.go:39: Processing role update request for user ID: 1
+INFO: 2025/05/31 20:29:18 logger.go:39: Requested role update for user 1 to role: tourist
+INFO: 2025/05/31 20:29:18 logger.go:39: Successfully updated role for user 1 from  to tourist
+INFO: 2025/05/31 20:29:42 logger.go:39: Processing login request
+INFO: 2025/05/31 20:29:42 logger.go:39: Login attempt - Email: nolo@gmail.com, Password length: 4
+INFO: 2025/05/31 20:29:42 logger.go:39: User found in database - ID: 1, Email: nolo@gmail.com
+INFO: 2025/05/31 20:29:42 logger.go:39: Stored password hash: $2a$10$E90xqb5C6WuGXRysJKHNnOP/iZqKpry2V0gVQz8nMsE7vFtRoXlvy
+INFO: 2025/05/31 20:29:42 logger.go:39: Input password length: 4, Stored hash length: 60
+INFO: 2025/05/31 20:29:42 logger.go:39: Password verified successfully
+INFO: 2025/05/31 20:29:42 logger.go:39: Login successful - User: nolo@gmail.com, Token generated
+INFO: 2025/05/31 20:29:42 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/31 20:29:42 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/31 20:32:30 logger.go:39: Processing login request
+INFO: 2025/05/31 20:32:30 logger.go:39: Login attempt - Email: nolo@gmail.com, Password length: 4
+INFO: 2025/05/31 20:32:30 logger.go:39: User found in database - ID: 1, Email: nolo@gmail.com
+INFO: 2025/05/31 20:32:30 logger.go:39: Stored password hash: $2a$10$E90xqb5C6WuGXRysJKHNnOP/iZqKpry2V0gVQz8nMsE7vFtRoXlvy
+INFO: 2025/05/31 20:32:30 logger.go:39: Input password length: 4, Stored hash length: 60
+INFO: 2025/05/31 20:32:30 logger.go:39: Password verified successfully
+INFO: 2025/05/31 20:32:30 logger.go:39: Login successful - User: nolo@gmail.com, Token generated
+INFO: 2025/05/31 20:32:30 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/31 20:32:30 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/31 20:46:35 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/31 20:46:35 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/31 20:46:35 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/31 20:46:35 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/31 20:52:53 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/31 20:52:53 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/31 20:52:54 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/31 20:52:54 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/31 20:57:12 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/31 20:57:12 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/31 20:57:12 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/31 20:57:12 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/31 21:21:07 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/31 21:21:07 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/31 21:21:07 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/31 21:21:07 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/31 21:21:11 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/31 21:21:11 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/31 21:21:11 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/31 21:21:11 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/31 21:21:37 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/31 21:21:37 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/31 21:21:37 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/31 21:21:37 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/31 21:22:04 logger.go:39: Processing protected route: /api/tourists/request
+INFO: 2025/05/31 21:22:04 logger.go:39: User 1 authenticated successfully for route: /api/tourists/request
+INFO: 2025/05/31 21:22:45 logger.go:39: Processing registration request
+INFO: 2025/05/31 21:22:45 logger.go:39: Registering new user - Email: solo@gmail.com, Name: solo
+INFO: 2025/05/31 21:22:45 logger.go:39: Raw password length: 4
+INFO: 2025/05/31 21:22:45 logger.go:39: Password hashed successfully - Hash length: 60, Hash: $2a$10$PYLq32G99RsGvf/XtSMqM.Ms7zS.biDQP5uFTeeNloWkYCIRnKcCC
+INFO: 2025/05/31 21:22:45 logger.go:39: User created successfully in database - ID: 2
+INFO: 2025/05/31 21:22:45 logger.go:39: User registered successfully: solo@gmail.com
+INFO: 2025/05/31 21:22:50 logger.go:39: Processing login request
+INFO: 2025/05/31 21:22:50 logger.go:39: Login attempt - Email: solo@gmail.com, Password length: 4
+INFO: 2025/05/31 21:22:50 logger.go:39: User found in database - ID: 2, Email: solo@gmail.com
+INFO: 2025/05/31 21:22:50 logger.go:39: Stored password hash: $2a$10$PYLq32G99RsGvf/XtSMqM.Ms7zS.biDQP5uFTeeNloWkYCIRnKcCC
+INFO: 2025/05/31 21:22:50 logger.go:39: Input password length: 4, Stored hash length: 60
+INFO: 2025/05/31 21:22:51 logger.go:39: Password verified successfully
+INFO: 2025/05/31 21:22:51 logger.go:39: Login successful - User: solo@gmail.com, Token generated
+INFO: 2025/05/31 21:22:51 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/31 21:22:51 logger.go:39: User 2 authenticated successfully for route: /auth/me
+INFO: 2025/05/31 21:22:53 logger.go:39: Processing protected route: /auth/update-role
+INFO: 2025/05/31 21:22:53 logger.go:39: User 2 authenticated successfully for route: /auth/update-role
+INFO: 2025/05/31 21:22:53 logger.go:39: Processing role update request for user ID: 2
+INFO: 2025/05/31 21:22:53 logger.go:39: Requested role update for user 2 to role: tourist
+INFO: 2025/05/31 21:22:53 logger.go:39: Successfully updated role for user 2 from  to tourist
+INFO: 2025/05/31 21:23:05 logger.go:39: Processing protected route: /api/tourists/request
+INFO: 2025/05/31 21:23:05 logger.go:39: User 2 authenticated successfully for route: /api/tourists/request
+INFO: 2025/05/31 21:27:09 logger.go:39: Processing registration request
+INFO: 2025/05/31 21:27:09 logger.go:39: Registering new user - Email: rulo@gmail.com, Name: rulo
+INFO: 2025/05/31 21:27:09 logger.go:39: Raw password length: 4
+INFO: 2025/05/31 21:27:09 logger.go:39: Password hashed successfully - Hash length: 60, Hash: $2a$10$mx15UJv8V.b8B96E9cD11ei9BsbwlVQLQ8j4Kk7aK/ngUYueEQk8u
+INFO: 2025/05/31 21:27:09 logger.go:39: User created successfully in database - ID: 3
+INFO: 2025/05/31 21:27:09 logger.go:39: User registered successfully: rulo@gmail.com
+INFO: 2025/05/31 21:27:14 logger.go:39: Processing login request
+INFO: 2025/05/31 21:27:14 logger.go:39: Login attempt - Email: rulo@gmail.com, Password length: 4
+INFO: 2025/05/31 21:27:14 logger.go:39: User found in database - ID: 3, Email: rulo@gmail.com
+INFO: 2025/05/31 21:27:14 logger.go:39: Stored password hash: $2a$10$mx15UJv8V.b8B96E9cD11ei9BsbwlVQLQ8j4Kk7aK/ngUYueEQk8u
+INFO: 2025/05/31 21:27:14 logger.go:39: Input password length: 4, Stored hash length: 60
+INFO: 2025/05/31 21:27:14 logger.go:39: Password verified successfully
+INFO: 2025/05/31 21:27:14 logger.go:39: Login successful - User: rulo@gmail.com, Token generated
+INFO: 2025/05/31 21:27:14 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/31 21:27:14 logger.go:39: User 3 authenticated successfully for route: /auth/me
+INFO: 2025/05/31 21:27:20 logger.go:39: Processing protected route: /auth/update-role
+INFO: 2025/05/31 21:27:20 logger.go:39: User 3 authenticated successfully for route: /auth/update-role
+INFO: 2025/05/31 21:27:20 logger.go:39: Processing role update request for user ID: 3
+INFO: 2025/05/31 21:27:20 logger.go:39: Requested role update for user 3 to role: tourist
+INFO: 2025/05/31 21:27:20 logger.go:39: Successfully updated role for user 3 from  to tourist
+INFO: 2025/05/31 21:27:20 logger.go:39: Processing protected route: /api/tourists
+INFO: 2025/05/31 21:27:20 logger.go:39: User 3 authenticated successfully for route: /api/tourists
+INFO: 2025/05/31 21:27:20 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/31 21:27:20 logger.go:39: User 3 authenticated successfully for route: /auth/me
+INFO: 2025/05/31 21:27:51 logger.go:39: Processing protected route: /api/tourists/request
+INFO: 2025/05/31 21:27:51 logger.go:39: User 3 authenticated successfully for route: /api/tourists/request

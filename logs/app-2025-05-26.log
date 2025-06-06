@@ -77,3 +77,233 @@ INFO: 2025/05/26 20:01:23 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0
 INFO: 2025/05/26 20:01:23 logger.go:39: Callback URL: 
 INFO: 2025/05/26 20:01:23 logger.go:39: Client Secret is configured
 INFO: 2025/05/26 20:01:23 logger.go:39: Server starting on port 3001
+INFO: 2025/05/26 20:45:19 logger.go:39: Starting application
+INFO: 2025/05/26 20:45:19 logger.go:39: Connecting to database
+INFO: 2025/05/26 20:45:33 logger.go:39: Database connected and migrated successfully
+INFO: 2025/05/26 20:45:33 logger.go:39: Initializing OAuth configuration
+INFO: 2025/05/26 20:45:33 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/26 20:45:33 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/26 20:45:33 logger.go:39: Callback URL: 
+INFO: 2025/05/26 20:45:33 logger.go:39: Client Secret is configured
+INFO: 2025/05/26 20:45:33 logger.go:39: Setting up routes
+INFO: 2025/05/26 20:45:33 logger.go:39: Setting up authentication routes
+INFO: 2025/05/26 20:45:33 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/26 20:45:33 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/26 20:45:33 logger.go:39: Callback URL: 
+INFO: 2025/05/26 20:45:33 logger.go:39: Client Secret is configured
+INFO: 2025/05/26 20:45:33 logger.go:39: Server starting on port 3001
+INFO: 2025/05/26 20:46:52 logger.go:39: Processing registration request
+ERROR: 2025/05/26 20:46:52 logger.go:46: Failed to create user: ERROR: duplicate key value violates unique constraint "users_email_key" (SQLSTATE 23505)
+INFO: 2025/05/26 20:47:29 logger.go:39: Processing registration request
+INFO: 2025/05/26 20:47:29 logger.go:39: User registered successfully: hola@gmail.com
+INFO: 2025/05/26 20:47:44 logger.go:39: Processing login request
+ERROR: 2025/05/26 20:47:45 logger.go:46: Login failed - invalid password for user: hola@gmail.com
+INFO: 2025/05/26 20:48:09 logger.go:39: Processing registration request
+ERROR: 2025/05/26 20:48:09 logger.go:46: Failed to create user: ERROR: duplicate key value violates unique constraint "users_google_id_key" (SQLSTATE 23505)
+INFO: 2025/05/26 20:48:36 logger.go:39: Processing registration request
+ERROR: 2025/05/26 20:48:37 logger.go:46: Failed to create user: ERROR: duplicate key value violates unique constraint "users_google_id_key" (SQLSTATE 23505)
+INFO: 2025/05/26 20:50:02 logger.go:39: Processing registration request
+ERROR: 2025/05/26 20:50:03 logger.go:46: Failed to create user: ERROR: duplicate key value violates unique constraint "users_google_id_key" (SQLSTATE 23505)
+INFO: 2025/05/26 20:50:12 logger.go:39: Starting application
+INFO: 2025/05/26 20:50:12 logger.go:39: Connecting to database
+INFO: 2025/05/26 20:50:26 logger.go:39: Database connected and migrated successfully
+INFO: 2025/05/26 20:50:26 logger.go:39: Initializing OAuth configuration
+INFO: 2025/05/26 20:50:26 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/26 20:50:26 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/26 20:50:26 logger.go:39: Callback URL: 
+INFO: 2025/05/26 20:50:26 logger.go:39: Client Secret is configured
+INFO: 2025/05/26 20:50:26 logger.go:39: Setting up routes
+INFO: 2025/05/26 20:50:26 logger.go:39: Setting up authentication routes
+INFO: 2025/05/26 20:50:26 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/26 20:50:26 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/26 20:50:26 logger.go:39: Callback URL: 
+INFO: 2025/05/26 20:50:26 logger.go:39: Client Secret is configured
+INFO: 2025/05/26 20:50:26 logger.go:39: Server starting on port 3001
+INFO: 2025/05/26 20:51:03 logger.go:39: Starting application
+INFO: 2025/05/26 20:51:03 logger.go:39: Connecting to database
+INFO: 2025/05/26 20:51:07 logger.go:39: Database connected and migrated successfully
+INFO: 2025/05/26 20:51:07 logger.go:39: Initializing OAuth configuration
+INFO: 2025/05/26 20:51:07 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/26 20:51:07 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/26 20:51:07 logger.go:39: Callback URL: 
+INFO: 2025/05/26 20:51:07 logger.go:39: Client Secret is configured
+INFO: 2025/05/26 20:51:07 logger.go:39: Setting up routes
+INFO: 2025/05/26 20:51:07 logger.go:39: Setting up authentication routes
+INFO: 2025/05/26 20:51:07 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/26 20:51:07 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/26 20:51:07 logger.go:39: Callback URL: 
+INFO: 2025/05/26 20:51:07 logger.go:39: Client Secret is configured
+INFO: 2025/05/26 20:51:07 logger.go:39: Server starting on port 3001
+INFO: 2025/05/26 20:51:36 logger.go:39: Processing registration request
+INFO: 2025/05/26 20:51:37 logger.go:39: User registered successfully: mariely@gmail.com
+INFO: 2025/05/26 20:51:40 logger.go:39: Processing login request
+ERROR: 2025/05/26 20:51:40 logger.go:46: Login failed - invalid password for user: mariely@gmail.com
+INFO: 2025/05/26 20:51:45 logger.go:39: Processing login request
+ERROR: 2025/05/26 20:51:45 logger.go:46: Login failed - invalid password for user: mariely@gmail.com
+INFO: 2025/05/26 20:52:23 logger.go:39: Processing registration request
+INFO: 2025/05/26 20:52:24 logger.go:39: User registered successfully: maikol3@gmail.com
+INFO: 2025/05/26 20:52:32 logger.go:39: Processing login request
+ERROR: 2025/05/26 20:52:32 logger.go:46: Login failed - invalid password for user: maikol3@gmail.com
+INFO: 2025/05/26 20:53:52 logger.go:39: Processing login request
+ERROR: 2025/05/26 20:53:52 logger.go:46: Login failed - invalid password for user: maikol3@gmail.com
+INFO: 2025/05/26 20:55:57 logger.go:39: Processing login request
+ERROR: 2025/05/26 20:55:57 logger.go:46: Login failed - invalid password for user: maikol3@gmail.com
+INFO: 2025/05/26 20:56:07 logger.go:39: Starting application
+INFO: 2025/05/26 20:56:07 logger.go:39: Connecting to database
+INFO: 2025/05/26 20:56:12 logger.go:39: Database connected and migrated successfully
+INFO: 2025/05/26 20:56:12 logger.go:39: Initializing OAuth configuration
+INFO: 2025/05/26 20:56:12 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/26 20:56:12 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/26 20:56:12 logger.go:39: Callback URL: 
+INFO: 2025/05/26 20:56:12 logger.go:39: Client Secret is configured
+INFO: 2025/05/26 20:56:12 logger.go:39: Setting up routes
+INFO: 2025/05/26 20:56:12 logger.go:39: Setting up authentication routes
+INFO: 2025/05/26 20:56:12 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/26 20:56:12 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/26 20:56:12 logger.go:39: Callback URL: 
+INFO: 2025/05/26 20:56:12 logger.go:39: Client Secret is configured
+INFO: 2025/05/26 20:56:12 logger.go:39: Server starting on port 3001
+INFO: 2025/05/26 20:56:18 logger.go:39: Processing login request
+INFO: 2025/05/26 20:56:18 logger.go:39: Login attempt for email: maikol3@gmail.com
+ERROR: 2025/05/26 20:56:19 logger.go:46: Login failed - user not found: maikol3@gmail.com
+INFO: 2025/05/26 20:57:09 logger.go:39: Processing registration request
+INFO: 2025/05/26 20:57:09 logger.go:39: Registering new user with email: maikolito@gmail.com
+INFO: 2025/05/26 20:57:09 logger.go:39: Password length: 9
+INFO: 2025/05/26 20:57:09 logger.go:39: Password hashed successfully, hash length: 60
+INFO: 2025/05/26 20:57:10 logger.go:39: User created with ID: 1
+INFO: 2025/05/26 20:57:10 logger.go:39: User registered successfully: maikolito@gmail.com
+INFO: 2025/05/26 20:57:24 logger.go:39: Processing login request
+INFO: 2025/05/26 20:57:24 logger.go:39: Login attempt for email: maikolito@gmail.com
+INFO: 2025/05/26 20:57:24 logger.go:39: Found user with ID: 1
+INFO: 2025/05/26 20:57:24 logger.go:39: Input password length: 9
+INFO: 2025/05/26 20:57:24 logger.go:39: Stored hash length: 60
+INFO: 2025/05/26 20:57:24 logger.go:39: User logged in successfully: maikolito@gmail.com
+INFO: 2025/05/26 20:57:24 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/26 20:58:49 logger.go:39: Starting application
+INFO: 2025/05/26 20:58:49 logger.go:39: Connecting to database
+INFO: 2025/05/26 20:58:53 logger.go:39: Database connected and migrated successfully
+INFO: 2025/05/26 20:58:53 logger.go:39: Initializing OAuth configuration
+INFO: 2025/05/26 20:58:53 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/26 20:58:53 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/26 20:58:53 logger.go:39: Callback URL: 
+INFO: 2025/05/26 20:58:53 logger.go:39: Client Secret is configured
+INFO: 2025/05/26 20:58:53 logger.go:39: Setting up routes
+INFO: 2025/05/26 20:58:53 logger.go:39: Setting up authentication routes
+INFO: 2025/05/26 20:58:53 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/26 20:58:53 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/26 20:58:53 logger.go:39: Callback URL: 
+INFO: 2025/05/26 20:58:53 logger.go:39: Client Secret is configured
+INFO: 2025/05/26 20:58:53 logger.go:39: Server starting on port 3001
+INFO: 2025/05/26 20:59:01 logger.go:39: Processing login request
+INFO: 2025/05/26 20:59:01 logger.go:39: Login attempt for email: maikolito@gmail.com
+ERROR: 2025/05/26 20:59:01 logger.go:46: Login failed - user not found: maikolito@gmail.com
+INFO: 2025/05/26 20:59:15 logger.go:39: Processing login request
+INFO: 2025/05/26 20:59:15 logger.go:39: Login attempt for email: maikolito@gmail.com
+ERROR: 2025/05/26 20:59:15 logger.go:46: Login failed - user not found: maikolito@gmail.com
+INFO: 2025/05/26 20:59:33 logger.go:39: Processing registration request
+INFO: 2025/05/26 20:59:33 logger.go:39: Registering new user with email: ale@gmail.com
+INFO: 2025/05/26 20:59:33 logger.go:39: Password length: 3
+INFO: 2025/05/26 20:59:33 logger.go:39: Password hashed successfully, hash length: 60
+INFO: 2025/05/26 20:59:34 logger.go:39: User created with ID: 1
+INFO: 2025/05/26 20:59:34 logger.go:39: User registered successfully: ale@gmail.com
+INFO: 2025/05/26 20:59:40 logger.go:39: Processing login request
+INFO: 2025/05/26 20:59:40 logger.go:39: Login attempt for email: ale@gmail.com
+INFO: 2025/05/26 20:59:41 logger.go:39: Found user with ID: 1
+INFO: 2025/05/26 20:59:41 logger.go:39: Input password length: 3
+INFO: 2025/05/26 20:59:41 logger.go:39: Stored hash length: 60
+INFO: 2025/05/26 20:59:41 logger.go:39: User logged in successfully: ale@gmail.com
+INFO: 2025/05/26 20:59:41 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/26 21:00:48 logger.go:39: Starting application
+INFO: 2025/05/26 21:00:48 logger.go:39: Connecting to database
+INFO: 2025/05/26 21:00:53 logger.go:39: Database connected and migrated successfully
+INFO: 2025/05/26 21:00:53 logger.go:39: Initializing OAuth configuration
+INFO: 2025/05/26 21:00:53 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/26 21:00:53 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/26 21:00:53 logger.go:39: Callback URL: 
+INFO: 2025/05/26 21:00:53 logger.go:39: Client Secret is configured
+INFO: 2025/05/26 21:00:53 logger.go:39: Setting up routes
+INFO: 2025/05/26 21:00:53 logger.go:39: Setting up authentication routes
+INFO: 2025/05/26 21:00:53 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/26 21:00:53 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/26 21:00:53 logger.go:39: Callback URL: 
+INFO: 2025/05/26 21:00:53 logger.go:39: Client Secret is configured
+INFO: 2025/05/26 21:00:53 logger.go:39: Server starting on port 3001
+INFO: 2025/05/26 21:01:23 logger.go:39: Processing login request
+INFO: 2025/05/26 21:01:23 logger.go:39: Login attempt for email: ale@gmail.com
+ERROR: 2025/05/26 21:01:23 logger.go:46: Login failed - user not found: ale@gmail.com
+INFO: 2025/05/26 21:01:42 logger.go:39: Processing registration request
+INFO: 2025/05/26 21:01:42 logger.go:39: Registering new user with email: ola@gmail.com
+INFO: 2025/05/26 21:01:42 logger.go:39: Password length: 3
+INFO: 2025/05/26 21:01:42 logger.go:39: Password hashed successfully, hash length: 60
+INFO: 2025/05/26 21:01:43 logger.go:39: User created with ID: 1
+INFO: 2025/05/26 21:01:43 logger.go:39: User registered successfully: ola@gmail.com
+INFO: 2025/05/26 21:01:45 logger.go:39: Processing login request
+INFO: 2025/05/26 21:01:45 logger.go:39: Login attempt for email: ola@gmail.com
+INFO: 2025/05/26 21:01:45 logger.go:39: Found user with ID: 1
+INFO: 2025/05/26 21:01:45 logger.go:39: Input password length: 3
+INFO: 2025/05/26 21:01:45 logger.go:39: Stored hash length: 60
+INFO: 2025/05/26 21:01:45 logger.go:39: User logged in successfully: ola@gmail.com
+INFO: 2025/05/26 21:01:45 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/26 21:01:45 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/26 21:15:12 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/26 21:15:12 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/26 21:15:12 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/26 21:15:12 logger.go:39: User 1 authenticated successfully for route: /auth/me
+INFO: 2025/05/26 21:19:33 logger.go:39: Processing login request
+INFO: 2025/05/26 21:19:33 logger.go:39: Login attempt for email: ola@gmail.com
+ERROR: 2025/05/26 21:19:33 logger.go:46: Login failed - user not found: ola@gmail.com
+INFO: 2025/05/26 21:20:55 logger.go:39: Starting application
+INFO: 2025/05/26 21:20:55 logger.go:39: Connecting to database
+INFO: 2025/05/26 21:21:00 logger.go:39: Database connected and migrated successfully
+INFO: 2025/05/26 21:21:00 logger.go:39: Initializing OAuth configuration
+INFO: 2025/05/26 21:21:00 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/26 21:21:00 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/26 21:21:00 logger.go:39: Callback URL: 
+INFO: 2025/05/26 21:21:00 logger.go:39: Client Secret is configured
+INFO: 2025/05/26 21:21:00 logger.go:39: Setting up routes
+INFO: 2025/05/26 21:21:00 logger.go:39: Setting up authentication routes
+INFO: 2025/05/26 21:21:00 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/26 21:21:00 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/26 21:21:00 logger.go:39: Callback URL: 
+INFO: 2025/05/26 21:21:00 logger.go:39: Client Secret is configured
+INFO: 2025/05/26 21:21:00 logger.go:39: Server starting on port 3001
+INFO: 2025/05/26 21:21:13 logger.go:39: Created new user from Google OAuth: zmaikol399@gmail.com
+INFO: 2025/05/26 21:24:26 logger.go:39: Starting application
+INFO: 2025/05/26 21:24:26 logger.go:39: Connecting to database
+INFO: 2025/05/26 21:24:31 logger.go:39: Database connected and migrated successfully
+INFO: 2025/05/26 21:24:31 logger.go:39: Initializing OAuth configuration
+INFO: 2025/05/26 21:24:31 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/26 21:24:31 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/26 21:24:31 logger.go:39: Callback URL: 
+INFO: 2025/05/26 21:24:31 logger.go:39: Client Secret is configured
+INFO: 2025/05/26 21:24:31 logger.go:39: Setting up routes
+INFO: 2025/05/26 21:24:31 logger.go:39: Setting up authentication routes
+INFO: 2025/05/26 21:24:31 logger.go:39: Initializing OAuth with:
+INFO: 2025/05/26 21:24:31 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/05/26 21:24:31 logger.go:39: Callback URL: 
+INFO: 2025/05/26 21:24:31 logger.go:39: Client Secret is configured
+INFO: 2025/05/26 21:24:31 logger.go:39: Server starting on port 3001
+INFO: 2025/05/26 21:24:48 logger.go:39: Created new user from Google OAuth: zmaikol399@gmail.com
+INFO: 2025/05/26 21:30:09 logger.go:39: Created new user from Google OAuth: ignacioiriarte7@gmail.com
+INFO: 2025/05/26 21:32:15 logger.go:39: Processing login request
+INFO: 2025/05/26 21:32:15 logger.go:39: Login attempt for email: ola@gmail.com
+ERROR: 2025/05/26 21:32:15 logger.go:46: Login failed - user not found: ola@gmail.com
+INFO: 2025/05/26 21:32:20 logger.go:39: Processing login request
+INFO: 2025/05/26 21:32:20 logger.go:39: Login attempt for email: maikolito@gmail.com
+ERROR: 2025/05/26 21:32:20 logger.go:46: Login failed - user not found: maikolito@gmail.com
+INFO: 2025/05/26 21:32:34 logger.go:39: Processing registration request
+INFO: 2025/05/26 21:32:34 logger.go:39: Registering new user with email: terror@gmail.com
+INFO: 2025/05/26 21:32:34 logger.go:39: Password length: 6
+INFO: 2025/05/26 21:32:34 logger.go:39: Password hashed successfully, hash length: 60
+INFO: 2025/05/26 21:32:35 logger.go:39: User created with ID: 3
+INFO: 2025/05/26 21:32:35 logger.go:39: User registered successfully: terror@gmail.com
+INFO: 2025/05/26 21:32:42 logger.go:39: Processing login request
+INFO: 2025/05/26 21:32:42 logger.go:39: Login attempt for email: terror@gmail.com
+INFO: 2025/05/26 21:32:42 logger.go:39: Found user with ID: 3
+INFO: 2025/05/26 21:32:42 logger.go:39: Input password length: 6
+INFO: 2025/05/26 21:32:42 logger.go:39: Stored hash length: 60
+INFO: 2025/05/26 21:32:42 logger.go:39: User logged in successfully: terror@gmail.com
+INFO: 2025/05/26 21:32:42 logger.go:39: Processing protected route: /auth/me
+INFO: 2025/05/26 21:32:42 logger.go:39: User 3 authenticated successfully for route: /auth/me
+INFO: 2025/05/26 21:32:59 logger.go:39: Found existing user by Google ID: ignacioiriarte7@gmail.com
+INFO: 2025/05/26 21:34:47 logger.go:39: Found existing user by Google ID: zmaikol399@gmail.com
