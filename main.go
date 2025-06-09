@@ -8,6 +8,7 @@ import (
 	"fiber-backend/utils"
 	"log"
 	"os"
+	"strings"
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/cors"
@@ -42,17 +43,33 @@ func main() {
 	// Middleware
 	app.Use(logger.New())
 	frontendURL := os.Getenv("FRONTEND_URL")
+	utils.LogInfo("Frontend URL from environment: %s", frontendURL)
+
+	var allowedOrigins []string
 	if frontendURL == "" {
-		frontendURL = "*" // Fallback to allow all origins if not set
+		allowedOrigins = []string{"http://localhost:5174", "http://localhost:3000", "*"}
+		utils.LogInfo("No FRONTEND_URL set, using default origins: %s", strings.Join(allowedOrigins, ", "))
+	} else {
+		allowedOrigins = []string{frontendURL}
+		utils.LogInfo("Using production frontend URL: %s", frontendURL)
 	}
-	app.Use(cors.New(cors.Config{
-		AllowOrigins:     frontendURL,
+
+	corsConfig := cors.Config{
+		AllowOrigins:     strings.Join(allowedOrigins, ","),
 		AllowHeaders:     "Origin, Content-Type, Accept, Authorization, X-Requested-With, X-CSRF-Token",
 		AllowMethods:     "GET,POST,HEAD,PUT,DELETE,PATCH,OPTIONS",
 		AllowCredentials: true,
 		ExposeHeaders:    "Content-Length, Authorization",
 		MaxAge:           86400, // 24 hours cache for preflight requests
-	}))
+	}
+
+	utils.LogInfo("CORS Configuration:")
+	utils.LogInfo("- Allowed Origins: %s", corsConfig.AllowOrigins)
+	utils.LogInfo("- Allowed Headers: %s", corsConfig.AllowHeaders)
+	utils.LogInfo("- Allowed Methods: %s", corsConfig.AllowMethods)
+	utils.LogInfo("- Allow Credentials: %v", corsConfig.AllowCredentials)
+
+	app.Use(cors.New(corsConfig))
 
 	// Initialize services
 	authService := services.NewAuthService(database.DB)
