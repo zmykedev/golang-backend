@@ -1,0 +1,32 @@
+INFO: 2025/06/09 20:19:50 logger.go:39: Starting application
+INFO: 2025/06/09 20:19:50 logger.go:39: Connecting to database
+INFO: 2025/06/09 20:20:07 logger.go:39: Database connected and migrated successfully
+INFO: 2025/06/09 20:20:07 logger.go:39: Initializing OAuth configuration
+INFO: 2025/06/09 20:20:07 logger.go:39: Initializing OAuth with:
+INFO: 2025/06/09 20:20:07 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/06/09 20:20:07 logger.go:39: Callback URL: 
+INFO: 2025/06/09 20:20:07 logger.go:39: Client Secret is configured
+INFO: 2025/06/09 20:20:07 logger.go:39: Frontend URL from environment: 
+INFO: 2025/06/09 20:20:07 logger.go:39: No FRONTEND_URL set, using default origins: http://localhost:5174, http://localhost:3000, *
+INFO: 2025/06/09 20:20:07 logger.go:39: CORS Configuration:
+INFO: 2025/06/09 20:20:07 logger.go:39: - Allowed Origins: http://localhost:5174,http://localhost:3000,*
+INFO: 2025/06/09 20:20:07 logger.go:39: - Allowed Headers: Origin, Content-Type, Accept, Authorization, X-Requested-With, X-CSRF-Token
+INFO: 2025/06/09 20:20:07 logger.go:39: - Allowed Methods: GET,POST,HEAD,PUT,DELETE,PATCH,OPTIONS
+INFO: 2025/06/09 20:20:07 logger.go:39: - Allow Credentials: true
+INFO: 2025/06/09 20:20:07 logger.go:39: Setting up routes
+INFO: 2025/06/09 20:20:07 logger.go:39: Setting up authentication routes
+INFO: 2025/06/09 20:20:07 logger.go:39: Initializing OAuth with:
+INFO: 2025/06/09 20:20:07 logger.go:39: Client ID: 723294679989-out7sooa0jb5l2v0q1q4lnrcnht13ckg.apps.googleusercontent.com
+INFO: 2025/06/09 20:20:07 logger.go:39: Callback URL: 
+INFO: 2025/06/09 20:20:07 logger.go:39: Client Secret is configured
+INFO: 2025/06/09 20:20:07 logger.go:39: Server starting on port 3001
+INFO: 2025/06/09 20:22:29 logger.go:39: Processing login request
+INFO: 2025/06/09 20:22:29 logger.go:39: Login attempt - Email: ola@gmail.com, Password length: 3
+ERROR: 2025/06/09 20:22:29 logger.go:46: Login failed - User not found in database: ola@gmail.com
+INFO: 2025/06/09 20:22:44 logger.go:39: Processing login request
+INFO: 2025/06/09 20:22:44 logger.go:39: Login attempt - Email: mary@gmail.com, Password length: 4
+INFO: 2025/06/09 20:22:44 logger.go:39: User found in database - ID: 6, Email: mary@gmail.com
+INFO: 2025/06/09 20:22:44 logger.go:39: Stored password hash: $2a$10$/pUtJY1LpdT3QyeAQVHF7uVB2k694XkNzTosyAwqmFTeEzsnmy/xS
+INFO: 2025/06/09 20:22:44 logger.go:39: Input password length: 4, Stored hash length: 60
+ERROR: 2025/06/09 20:22:44 logger.go:46: Password comparison failed - Error: crypto/bcrypt: hashedPassword is not the hash of the given password
+ERROR: 2025/06/09 20:22:44 logger.go:46: Attempted to compare hash '$2a$10$/pUtJY1LpdT3QyeAQVHF7uVB2k694XkNzTosyAwqmFTeEzsnmy/xS' with password of length 4

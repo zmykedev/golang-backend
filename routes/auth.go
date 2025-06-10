@@ -238,6 +238,20 @@ func SetupAuthRoutes(app *fiber.App, authService *services.AuthService) {
 	// Login
 	auth.Post("/login", func(c *fiber.Ctx) error {
 		utils.LogInfo("Processing login request")
+
+		// Log CORS-related headers
+		utils.LogInfo("Request Headers:")
+		utils.LogInfo("- Origin: %s", c.Get("Origin"))
+		utils.LogInfo("- Access-Control-Request-Method: %s", c.Get("Access-Control-Request-Method"))
+		utils.LogInfo("- Access-Control-Request-Headers: %s", c.Get("Access-Control-Request-Headers"))
+
+		// Log response headers
+		utils.LogInfo("Response Headers:")
+		utils.LogInfo("- Access-Control-Allow-Origin: %s", c.Get("Access-Control-Allow-Origin"))
+		utils.LogInfo("- Access-Control-Allow-Methods: %s", c.Get("Access-Control-Allow-Methods"))
+		utils.LogInfo("- Access-Control-Allow-Headers: %s", c.Get("Access-Control-Allow-Headers"))
+		utils.LogInfo("- Access-Control-Allow-Credentials: %s", c.Get("Access-Control-Allow-Credentials"))
+
 		var input struct {
 			Email    string `json:"email"`
 			Password string `json:"password"`
@@ -285,7 +299,15 @@ func SetupAuthRoutes(app *fiber.App, authService *services.AuthService) {
 			})
 		}
 
+		// Set CORS headers explicitly for this response
+		c.Set("Access-Control-Allow-Origin", c.Get("Origin"))
+		c.Set("Access-Control-Allow-Credentials", "true")
+
 		utils.LogInfo("Login successful - User: %s, Token generated", user.Email)
+		utils.LogInfo("Final Response Headers:")
+		utils.LogInfo("- Access-Control-Allow-Origin: %s", c.Get("Access-Control-Allow-Origin"))
+		utils.LogInfo("- Access-Control-Allow-Credentials: %s", c.Get("Access-Control-Allow-Credentials"))
+
 		return c.JSON(fiber.Map{
 			"token": token,
 			"user": fiber.Map{

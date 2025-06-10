@@ -55,12 +55,17 @@ func main() {
 	}
 
 	corsConfig := cors.Config{
-		AllowOrigins:     strings.Join(allowedOrigins, ","),
+		AllowOrigins:     "*", // Allow all origins temporarily for debugging
 		AllowHeaders:     "Origin, Content-Type, Accept, Authorization, X-Requested-With, X-CSRF-Token",
 		AllowMethods:     "GET,POST,HEAD,PUT,DELETE,PATCH,OPTIONS",
 		AllowCredentials: true,
 		ExposeHeaders:    "Content-Length, Authorization",
 		MaxAge:           86400, // 24 hours cache for preflight requests
+	}
+
+	// If we have specific origins, use them instead of "*"
+	if frontendURL != "" {
+		corsConfig.AllowOrigins = frontendURL
 	}
 
 	utils.LogInfo("CORS Configuration:")
