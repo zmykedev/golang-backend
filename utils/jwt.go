@@ -15,10 +15,10 @@ func GenerateJWT(user *models.User) (string, error) {
 	}
 
 	claims := jwt.MapClaims{
-		"sub":   user.ID,
-		"email": user.Email,
-		"name":  user.Name,
-		"exp":   time.Now().Add(time.Minute * 10).Unix(),
+		"user_id": user.ID,
+		"email":   user.Email,
+		"name":    user.Name,
+		"exp":     time.Now().Add(time.Hour * 24).Unix(),
 	}
 
 	token := jwt.NewWithClaims(jwt.SigningMethodHS256, claims)
@@ -45,7 +45,7 @@ func GetUserIDFromToken(token *jwt.Token) (uint, error) {
 		return 0, jwt.ErrInvalidKeyType
 	}
 
-	userID, ok := claims["sub"].(float64)
+	userID, ok := claims["user_id"].(float64)
 	if !ok {
 		return 0, jwt.ErrInvalidKeyType
 	}
