@@ -8,7 +8,6 @@ import (
 	"fiber-backend/utils"
 	"log"
 	"os"
-	"strings"
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/cors"
@@ -42,30 +41,14 @@ func main() {
 
 	// Middleware
 	app.Use(logger.New())
-	frontendURL := os.Getenv("FRONTEND_URL")
-	utils.LogInfo("Frontend URL from environment: %s", frontendURL)
-
-	var allowedOrigins []string
-	if frontendURL == "" {
-		allowedOrigins = []string{"http://localhost:5174", "http://localhost:3000", "*"}
-		utils.LogInfo("No FRONTEND_URL set, using default origins: %s", strings.Join(allowedOrigins, ", "))
-	} else {
-		allowedOrigins = []string{frontendURL}
-		utils.LogInfo("Using production frontend URL: %s", frontendURL)
-	}
 
 	corsConfig := cors.Config{
-		AllowOrigins:     "*", // Allow all origins temporarily for debugging
+		AllowOrigins:     "http://localhost:35173, https://tourist-golang.netlify.app",
 		AllowHeaders:     "Origin, Content-Type, Accept, Authorization, X-Requested-With, X-CSRF-Token",
 		AllowMethods:     "GET,POST,HEAD,PUT,DELETE,PATCH,OPTIONS",
 		AllowCredentials: true,
 		ExposeHeaders:    "Content-Length, Authorization",
 		MaxAge:           86400, // 24 hours cache for preflight requests
-	}
-
-	// If we have specific origins, use them instead of "*"
-	if frontendURL != "" {
-		corsConfig.AllowOrigins = frontendURL
 	}
 
 	utils.LogInfo("CORS Configuration:")
