@@ -2,18 +2,12 @@ package utils
 
 import (
 	"fiber-backend/models"
-	"os"
 	"time"
 
 	"github.com/golang-jwt/jwt/v5"
 )
 
 func GenerateJWT(user *models.User) (string, error) {
-	secret := []byte(os.Getenv("JWT_SECRET"))
-	if len(secret) == 0 {
-		secret = []byte("your-secret-key") // Fallback secret key
-	}
-
 	claims := jwt.MapClaims{
 		"user_id": user.ID,
 		"email":   user.Email,
@@ -22,20 +16,15 @@ func GenerateJWT(user *models.User) (string, error) {
 	}
 
 	token := jwt.NewWithClaims(jwt.SigningMethodHS256, claims)
-	return token.SignedString(secret)
+	return token.SignedString(GetJWTSecret())
 }
 
 func ValidateJWT(tokenString string) (*jwt.Token, error) {
-	secret := []byte(os.Getenv("JWT_SECRET"))
-	if len(secret) == 0 {
-		secret = []byte("your-secret-key") // Fallback secret key
-	}
-
 	return jwt.Parse(tokenString, func(token *jwt.Token) (interface{}, error) {
 		if _, ok := token.Method.(*jwt.SigningMethodHMAC); !ok {
 			return nil, jwt.ErrSignatureInvalid
 		}
-		return secret, nil
+		return GetJWTSecret(), nil
 	})
 }
 

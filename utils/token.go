@@ -10,6 +10,15 @@ import (
 	"github.com/golang-jwt/jwt/v5"
 )
 
+// GetJWTSecret returns the JWT secret from environment or panics if not set
+func GetJWTSecret() []byte {
+	secret := os.Getenv("JWT_SECRET")
+	if secret == "" {
+		panic("JWT_SECRET environment variable is not set")
+	}
+	return []byte(secret)
+}
+
 // GenerateToken creates a new JWT token for a user
 func GenerateToken(user models.User) (string, error) {
 	token := jwt.NewWithClaims(jwt.SigningMethodHS256, jwt.MapClaims{
@@ -19,11 +28,7 @@ func GenerateToken(user models.User) (string, error) {
 		"exp":     time.Now().Add(time.Hour * 24).Unix(),
 	})
 
-	secret := []byte(os.Getenv("JWT_SECRET"))
-	if len(secret) == 0 {
-		secret = []byte("your-secret-key") // Fallback secret key
-	}
-
+	secret := GetJWTSecret()
 	return token.SignedString(secret)
 }
 

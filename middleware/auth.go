@@ -2,7 +2,6 @@ package middleware
 
 import (
 	"fiber-backend/utils"
-	"os"
 	"strings"
 
 	"github.com/gofiber/fiber/v2"
@@ -41,7 +40,7 @@ func Protected() fiber.Handler {
 				utils.LogError("Invalid token signing method for route: %s", c.Path())
 				return nil, fiber.NewError(fiber.StatusUnauthorized, "Invalid token signing method")
 			}
-			return []byte(os.Getenv("JWT_SECRET")), nil
+			return utils.GetJWTSecret(), nil
 		})
 
 		if err != nil {
