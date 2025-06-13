@@ -11,6 +11,30 @@ import (
 func SetupBookingRoutes(app *fiber.App, db *gorm.DB) {
 	bookingGroup := app.Group("/api/bookings")
 
+	// Get all bookings for the authenticated tourist
+	bookingGroup.Get("/tourist", func(c *fiber.Ctx) error {
+		// Get user ID from the token
+		userID := c.Locals("userID").(uint)
+
+		// Get tourist ID from the user ID
+		var tourist models.Tourist
+		if err := db.Where("user_id = ?", userID).First(&tourist).Error; err != nil {
+			return c.Status(404).JSON(fiber.Map{
+				"error": "Tourist not found",
+			})
+		}
+
+		var bookings []models.Booking
+		// Preload the driver and tourist relationships to get all necessary data
+		if err := db.Preload("Driver.User").Preload("Tourist").Where("tourist_id = ?", tourist.ID).Find(&bookings).Error; err != nil {
+			return c.Status(500).JSON(fiber.Map{
+				"error": "Failed to fetch bookings",
+			})
+		}
+
+		return c.JSON(bookings)
+	})
+
 	// Create a new booking
 	bookingGroup.Post("/", func(c *fiber.Ctx) error {
 		var booking models.Booking
@@ -32,20 +56,6 @@ func SetupBookingRoutes(app *fiber.App, db *gorm.DB) {
 		}
 
 		return c.Status(201).JSON(booking)
-	})
-
-	// Get all bookings for a tourist
-	bookingGroup.Get("/tourist/:id", func(c *fiber.Ctx) error {
-		touristID := c.Params("id")
-		var bookings []models.Booking
-
-		if err := db.Preload("Driver").Preload("Tourist").Where("tourist_id = ?", touristID).Find(&bookings).Error; err != nil {
-			return c.Status(500).JSON(fiber.Map{
-				"error": "Failed to fetch bookings",
-			})
-		}
-
-		return c.JSON(bookings)
 	})
 
 	// Get all bookings for a driver
