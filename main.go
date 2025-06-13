@@ -68,6 +68,7 @@ func main() {
 	routes.SetupAuthRoutes(app, authService)
 	routes.SetupTouristRoutes(app)
 	routes.SetupDriverRoutes(app, driverService)
+	routes.SetupBookingRoutes(app, database.DB)
 
 	// Start server
 	port := os.Getenv("PORT")
