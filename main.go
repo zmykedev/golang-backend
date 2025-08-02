@@ -43,8 +43,8 @@ func main() {
 	app.Use(logger.New())
 
 	corsConfig := cors.Config{
-		AllowOrigins:     "http://localhost:5173, https://tourist-golang.netlify.app",
-		AllowHeaders:     "Origin, Content-Type, Accept, Authorization, X-Requested-With, X-CSRF-Token",
+		AllowOrigins:     "http://localhost:5173,https://tourist-golang.netlify.app",
+		AllowHeaders:     "Origin,Content-Type,Accept,Authorization,X-Requested-With,X-CSRF-Token",
 		AllowMethods:     "GET,POST,HEAD,PUT,DELETE,PATCH,OPTIONS",
 		AllowCredentials: true,
 		ExposeHeaders:    "Content-Length, Authorization",
