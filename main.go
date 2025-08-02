@@ -40,6 +40,7 @@ func main() {
 	})
 
 	// Middleware
+
 	app.Use(logger.New())
 
 	corsConfig := cors.Config{
